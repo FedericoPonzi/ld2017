@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+}
+p.lead {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+.btn-primary{
+  background-color: #3F51B5;
+}
+.navbar-custom {
+  border-color: transparent;
+  padding: 1rem 1rem 2rem 0;
+  background-color: #303F9F;
+  box-shadow: 0px 3px 12px #888888;
+}
+.nav-link, .navbar-brand{
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.text-fluid, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+p{
+  font-weight: 400;
+}
+aside{
+  margin-top:1rem;
+}
+aside img {
+  width: 128px;
+}
+aside .row {
+  margin-bottom: 1rem;
+}
+.title {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border-top: none;
+  padding-top: 1.2rem;
+}
+.main {
+  padding-top: 2.5rem;
+}
+
+
+
+/** Footer: **/
+.page-footer{
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #283593;
+  color: #E8EAF6;
+}
+
+.page-footer a{
+  color:white;
+  font-weight: 600;
+}
+.page-footer h3{
+  font-weight: 400;
+  font-size: 1.3em;
+  color:white;
+  text-transform: capitalize;
+  text-decoration: solid;
+}
+
+.page-footer .social ul{
+  list-style: none;
+}
+.page-footer .social li{
+  margin-bottom: 2em;
+}
+.page-footer .social img
+{
+  width: 32px;
+}
+.footer-copyright {
+  background-color:#1A237E;
+  margin-top:3em;
+
+}
+.footer-copyright p{
+  padding: 1em 0;
+    margin-bottom: 0;
+}
+/** Fine footer **/
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  aside div {
+    margin-bottom: 1rem;
+  }
+  aside .row {
+    margin-bottom: 0rem;
+  }
+  .page-footer .col{
+    margin-bottom: 2em;
+  }
+ }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-link{
+      margin-right: 0.2rem;
+      margin-left:  0.3;
+      border-right: 1px solid #e0e0e0;
+    }
+    .nav-link-home{
+      border-left: 1px solid #e0e0e0;
+    }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
