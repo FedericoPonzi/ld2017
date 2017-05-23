@@ -1,10 +1,11 @@
+<?php include_once "config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="<?= METADESCRIPTION ?>">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
@@ -60,27 +61,17 @@ Contatti</a>
               <p>Nel nostro LUG noi sviluppiamo tutto ciò che serve al nostro SO preferito, forniamo supporto e assistenza a chi è nuovo nel mondo di Linux e cerchiamo, attraverso supporto e corsi di far comprendere alle persone le potenzialità pressochè infinite di questo SO.</p>
               <p>Vi terremo informati su futuri eventi che faremo, e per i veri appassionati ricordatevi che qualsiasi informazione aggiuntiva, domanda o chiarimento basta contattarci sulla nostra pagina Facebook: <a href="https://www.facebook.com/LUGRoma3">LUG Roma Tre</a>!</p>
             </div><!-- / Fine main -->
-          <aside class="col-md-offset-1 col-md-3 col-sm-offset-0 col-sm-4 col-xs-offset-0 col-xs-4">
-            <h4>Partners:</h4>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-              </div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          <div class=" col-md-6 col-sm-6 col-xs-6">
-            <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-          </div>
-        </div>
-        </aside>
+
+            <?php include_once "partners.php" ?>
       </div>
     </div><!-- /.container -->
+
+    <div class="container main">
+        <h3>Dove siamo:</h3>
+        <p>Via casa mia</p>
+        <h4>Indicazioni</h4>
+        <p>Dal raccordo: </p>
+    </div>
     <?php include_once "footer.php" ?>
   </body>
 </html>

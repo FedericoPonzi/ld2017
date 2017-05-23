@@ -18,7 +18,7 @@
             <ul>
               <li><a target="_blank" href="https://www.lugroma3.it"><img src="img/social/home.svg"> Sito LUGRoma3</a></li>
               <li><a target="_blank" href="https://www.facebook.com/LUGRoma3"><img src="img/social/facebook.svg"> Facebook</a></li>
-              <li><a target="_blank" href="https://www.telegram.me"><img src="img/social/telegram.svg"> Gruppo Telegram</a></li>
+              <li><a target="_blank" href="https://t.me/joinchat/AAAAAEGI-q7MA0iyPcB6ng"><img src="img/social/telegram.svg"> Gruppo Telegram</a></li>
 
             </ul>
         </div>

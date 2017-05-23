@@ -1,10 +1,11 @@
+<?php include_once "config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="<?= METADESCRIPTION ?>">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
@@ -78,25 +79,7 @@ con te un documento per il check-in!
 Per il programma, stay TUXed; aggiornamento in corso.</p>
 
           </div>
-          <aside class="col-md-offset-1 col-md-3 col-sm-offset-0 col-sm-4 col-xs-offset-0 col-xs-4">
-            <h4>Partners:</h4>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-              </div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          <div class=" col-md-6 col-sm-6 col-xs-6">
-            <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-          </div>
-        </div>
-        </aside>
+          <?php include_once "partners.php" ?>
       </div>
     </div><!-- /.container -->
     <?php include_once "footer.php" ?>

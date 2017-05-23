@@ -1,14 +1,15 @@
+<?php include_once "config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="<?= METADESCRIPTION ?>">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>About us | Linux Day 2017</title>
+    <title>Agenda | Linux Day 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -29,14 +30,14 @@
             <li class="nav-item">
                 <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i>
 Sponsors</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i>
 About us</a>
             </li>
@@ -52,33 +53,47 @@ Contatti</a>
     <div class="container main">
         <div class="row">
             <div class="col-md-8 col-sm-8 col-xs-8">
-              <h3 class="title">Su di noi</h3>
-              <p class="lead">"Un <i>Linux User Group</i> (LUG), o anche "<i>Linux Users Group</i>" e "<i>Linux Users Group</i>", è un gruppo formato da persone che osservano i principi del software libero ed impegnate nel diffondere i sistemi operativi basati sul kernel Linux. Questo è ciò che trovate su Wikipedia quando cercate la parola LUG.</p>
-              <h5 class="title">Ma cos'è effettivamente un LUG?</h5>
-              <p>Il LUG nasce come aggregazione di ragazzi i quali condividono la stessa passione per il pinguino e la voglia di trasmettere al mondo le potenzialità di questo sistema operativo, e noi non siamo da meno.</p>
-              <p>Il <strong>LUG di Roma Tre</strong> è sempre stato, negli anni passati, conosciuto al livello italiano per la bravura nell'utilizzo ottimizzato di Linux e per la passione che mettevano nello spiegare e nell'insegnare la filosofia Linux agli altri. Elementi del vecchio LUG hanno peraltro tenuto conferenze al livello nazionale riguardo sviluppo e debug degli aggiornamenti, e noi puntiamo a non essere meno.</p>
-              <p>Nel nostro LUG noi sviluppiamo tutto ciò che serve al nostro SO preferito, forniamo supporto e assistenza a chi è nuovo nel mondo di Linux e cerchiamo, attraverso supporto e corsi di far comprendere alle persone le potenzialità pressochè infinite di questo SO.</p>
-              <p>Vi terremo informati su futuri eventi che faremo, e per i veri appassionati ricordatevi che qualsiasi informazione aggiuntiva, domanda o chiarimento basta contattarci sulla nostra pagina Facebook: <a href="https://www.facebook.com/LUGRoma3">LUG Roma Tre</a>!</p>
+              <h2 class="title">Agenda</h2>
+              <p>Stiamo ancora definendo il programma della giornata. Hai un'idea per un talk? <a href="contatti.php">Parliamone</a>!</p>
+              <h3>Programma:</h3>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Orario</th>
+                    <th>Aula</th>
+                    <th>Titolo</th>
+                    <th>Speaker</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>09:30</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                  </tr>
+                  <tr>
+                    <td>10:00</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                  </tr>
+                  <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                </tbody>
+              </table>
             </div><!-- / Fine main -->
-          <aside class="col-md-offset-1 col-md-3 col-sm-offset-0 col-sm-4 col-xs-offset-0 col-xs-4">
-            <h4>Partners:</h4>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6">
-                <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-              </div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-            </div>
-          <div class=" col-md-6 col-sm-6 col-xs-6">
-            <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
-          </div>
-        </div>
-        </aside>
+          <?php include_once "partners.php" ?>
       </div>
     </div><!-- /.container -->
     <?php include_once "footer.php" ?>
