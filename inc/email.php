@@ -22,7 +22,7 @@ $headers = "From: ".$name." <".$email.">\r\n"
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 	$mail = mail($to, $subject, $message, $headers);
 	if($mail){
-		echo '<div class="alert alert-success" role="alert"> <strong>Well done!</strong> You successfully read this important alert message.</div>';
+		echo '<div class="alert alert-success" role="alert"> <strong>Fantastico!</strong> Abbiamo ricevuto il tuo messaggio, ti risponderemo il prima possibile.</div>';
 	}else{
 		echo '<div class="alert alert-danger" role="alert"><strong>Qualcosa è andata storta.</strong> Riprova più tardi o se persiste contatta '. $to .'</div>';
 	}
