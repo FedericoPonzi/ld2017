@@ -56,27 +56,12 @@ Contatti</a>
               <h2 class="title">Linux day 2017</h2>
               <p class="lead">Diciassettesima manifestazione italiana dedicata a Linux e al software libero</p>
 
-              <p>Sabato 28 ottobre torna la principale manifestazione italiana dedicata a Linux, al
-
-software libero, alla cultura aperta ed alla condivisione: decìnedi eventi in tutta
-
-Italia, centinaia di volontari coinvolti e migliaia di visitatori per celebrare insieme
-
-la libertà digitale.‘
-
-Location romana per l'evento di quest'anno sarà l'Università degli Studi Roma Tre, O O
-
-Dipartimento di Ingegneria {clicca qui per informazioni sul luogo dell'evento].
-
-Quest'anno il tema affrontato durante il Linux Day sarà la privacy e la riservatezza
-individuale: cos'è la privacy e quanto possiamo parlare di privacy nell'ambito
-tecnologico? Esiste ancora il concetto primitivo di privacy? Tutti abbiamo
-qualcosa da nascondere, ma forse non è più possibile...
-
-Per partecipare, ricordati di prendere il biglietto gratuito a questo link e di portare
-con te un documento per il check-in!
-
-Per il programma, stay TUXed; aggiornamento in corso.</p>
+              <p>Sabato 28 ottobre torna la principale manifestazione italiana dedicata a Linux, al software libero, alla cultura aperta ed alla condivisione: decine di eventi in tutta Italia, centinaia di volontari coinvolti e migliaia di visitatori per celebrare insieme la libertà digitale.
+                Location romana per l'evento di quest'anno sarà l'Università degli Studi Roma Tre, presso il Dipartimento di Ingegneria</a>. </p>
+                <p>Quest'anno il tema affrontato durante il Linux Day sarà la <strong>privacy e la riservatezza individuale</strong>: cos'è la privacy e quanto possiamo parlare di privacy nell'ambito tecnologico?
+                <p>Esiste ancora il concetto primitivo di privacy? Tutti abbiamo qualcosa da nascondere, ma forse non è più possibile...</p>
+                <p class="lead">Per partecipare, ricordati di prendere il biglietto gratuito a questo link e di portare con te un documento per il check-in! </p>
+                <p>Per il programma, stay TUXed; aggiornamento in corso.</p>
 
           </div>
           <?php include_once "partners.php" ?>
