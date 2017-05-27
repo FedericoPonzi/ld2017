@@ -51,6 +51,7 @@ Contatti</a>
     </nav>
 
     <div class="container main">
+      <div class="jumbotron">
         <div class="row">
             <div class="col-md-8 col-sm-8 col-xs-8">
               <h2 class="title">Agenda</h2>
@@ -94,6 +95,7 @@ Contatti</a>
               </table>
             </div><!-- / Fine main -->
           <?php include_once "partners.php" ?>
+        </div>
       </div>
     </div><!-- /.container -->
     <?php include_once "footer.php" ?>

@@ -51,25 +51,27 @@ Contatti</a>
     </nav>
 
     <div class="container main">
-        <div class="row">
-            <div class="col-md-8 col-sm-8 col-xs-8">
+      <div class="jumbotron">
+          <div class="row">
+              <div class="col-md-8 col-sm-8 col-xs-8">
 
-              <p class="lead">Senza i nostri gentili sponsors il Linux Day non potrebbe essere quello che &egrave;.</p>
-              <h3 class="title">Gold</h3>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card" style="">
-                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
-                    <div class="card-block">
-                      <h4 class="card-title">La tua azienda qui</h4>
-                      <p class="card-text">Ti piacerebbe sponsorizzare il Linux Day?</p>
-                      <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                <p class="lead">Senza i nostri gentili sponsors il Linux Day non potrebbe essere quello che &egrave;.</p>
+                <h3 class="title">Gold</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card" style="">
+                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
+                      <div class="card-block">
+                        <h4 class="card-title">La tua azienda qui</h4>
+                        <p class="card-text">Ti piacerebbe sponsorizzare il Linux Day?</p>
+                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div><!-- / Fine main -->
-          <?php include_once "partners.php" ?>
+              </div><!-- / Fine main -->
+            <?php include_once "partners.php" ?>
+        </div>
       </div>
     </div><!-- /.container -->
     <?php include_once "footer.php" ?>

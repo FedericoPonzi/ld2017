@@ -51,12 +51,13 @@ Contatti</a>
     </nav>
 
     <div class="container main">
+      <div class="jumbotron">
         <div class="row">
             <div class="col-md-8 col-sm-8 col-xs-8">
               <h3 class="title">Su di noi</h3>
               <p class="lead">"Un <i>Linux User Group</i> (LUG), o anche "<i>Linux Users Group</i>" e "<i>Linux Users Group</i>", è un gruppo formato da persone che osservano i principi del software libero ed impegnate nel diffondere i sistemi operativi basati sul kernel Linux. Questo è ciò che trovate su Wikipedia quando cercate la parola LUG.</p>
               <h5 class="title">Ma cos'è effettivamente un LUG?</h5>
-              <p>Il LUG nasce come aggregazione di ragazzi i quali condividono la stessa passione per il pinguino e la voglia di trasmettere al mondo le potenzialità di questo sistema operativo, e noi non siamo da meno.</p>
+              <p>Il LUG nasce come aggregazione di   ragazzi i quali condividono la stessa passione per il pinguino e la voglia di trasmettere al mondo le potenzialità di questo sistema operativo, e noi non siamo da meno.</p>
               <p>Il <strong>LUG di Roma Tre</strong> è sempre stato, negli anni passati, conosciuto al livello italiano per la bravura nell'utilizzo ottimizzato di Linux e per la passione che mettevano nello spiegare e nell'insegnare la filosofia Linux agli altri. Elementi del vecchio LUG hanno peraltro tenuto conferenze al livello nazionale riguardo sviluppo e debug degli aggiornamenti, e noi puntiamo a non essere meno.</p>
               <p>Nel nostro LUG noi sviluppiamo tutto ciò che serve al nostro SO preferito, forniamo supporto e assistenza a chi è nuovo nel mondo di Linux e cerchiamo, attraverso supporto e corsi di far comprendere alle persone le potenzialità pressochè infinite di questo SO.</p>
               <p>Vi terremo informati su futuri eventi che faremo, e per i veri appassionati ricordatevi che qualsiasi informazione aggiuntiva, domanda o chiarimento basta contattarci sulla nostra pagina Facebook: <a href="https://www.facebook.com/LUGRoma3">LUG Roma Tre</a>!</p>
@@ -119,8 +120,9 @@ Contatti</a>
 
     </div><!-- / Fine main -->
 
-    <?php include_once "partners.php" ?>
-  </div>
+        <?php include_once "partners.php" ?>
+      </div>
+    </div>
   </div><!-- /.container -->
     <?php include_once "footer.php" ?>
   </body>

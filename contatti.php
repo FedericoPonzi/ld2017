@@ -51,34 +51,36 @@ Contatti</a>
     </nav>
 
     <div class="container main">
+      <div class="jumbotron">
         <div class="row">
-            <div class="col-md-8 col-sm-8 col-xs-8">
-              <h2 class="title">Contatti</h2>
-              <p class="lead">I tempi di risposta solitamente sono brevi.</p>
-              <form action="#" method="post" id="contactform" novalidate="novalidate">
-                <div id="status"></div>
-                <div class="form-group row">
-                   <label for="name" class="col-2 col-form-label">Il tuo nome</label>
-                  <div class="col-10">
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Il tuo nome">
+              <div class="col-md-8 col-sm-8 col-xs-8">
+                <h2 class="title">Contatti</h2>
+                <p class="lead">I tempi di risposta solitamente sono brevi.</p>
+                <form action="#" method="post" id="contactform" novalidate="novalidate">
+                  <div id="status"></div>
+                  <div class="form-group row">
+                     <label for="name" class="col-2 col-form-label">Il tuo nome</label>
+                    <div class="col-10">
+                      <input class="form-control" type="text" id="name" name="name" placeholder="Il tuo nome">
+                    </div>
                   </div>
-                </div>
-                <div class="form-group row">
-                  <label for="email" class="col-2 col-form-label">La tua email</label>
-                  <div class="col-10">
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Inserisci la tua email">
+                  <div class="form-group row">
+                    <label for="email" class="col-2 col-form-label">La tua email</label>
+                    <div class="col-10">
+                      <input class="form-control" type="email" id="email" name="email" placeholder="Inserisci la tua email">
+                    </div>
                   </div>
-                </div>
 
-                <div class="form-group">
-                  <label for="message">Il tuo messaggio</label>
-                  <textarea class="form-control" name="message" id="message" rows="9" placeholder="Inserisci il tuo messaggio.."></textarea>
-                </div>
-                <button id="#submit" type="submit" class="btn btn-primary btn-lg float-right"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Invia</button>
+                  <div class="form-group">
+                    <label for="message">Il tuo messaggio</label>
+                    <textarea class="form-control" name="message" id="message" rows="9" placeholder="Inserisci il tuo messaggio.."></textarea>
+                  </div>
+                  <button id="#submit" type="submit" class="btn btn-primary btn-lg float-right"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Invia</button>
 
-            </form>
+                </form>
+            </div>
+            <?php include_once "partners.php" ?>
         </div>
-          <?php include_once "partners.php" ?>
       </div>
     </div><!-- /.container -->
     <?php include_once "footer.php" ?>
