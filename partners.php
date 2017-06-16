@@ -2,7 +2,7 @@
   <h4>Partners:</h4>
   <div class="row">
     <div class="col">
-      <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
+      <img src="img/partners/wikimedia.svg" class="rounded img-fluid" alt="...">
     </div>
   <div class="col">
     <img src="img/placeholder-partners.png" class="rounded img-fluid" alt="...">
