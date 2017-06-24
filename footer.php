@@ -10,12 +10,15 @@
         </div>
 
         <div class="col-md-4">
+
             <h3>Domande?</h3>
             <p>Vuoi proporre un talk? Vuoi diventare sponsor? Hai domande sull'evento?</p>
             <p><a href="contatti.php">Scrivici</a>. Non vediamo l'ora di risponderti.</p>
         </div>
+
         <div class="col-md-3 social">
             <ul>
+              <li><a target="_blank" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"> <img src="img/social/ticket.svg"> Biglietti </a</li>
               <li><a target="_blank" href="https://www.lugroma3.it"><img src="img/social/home.svg"> Sito LUGRoma3</a></li>
               <li><a target="_blank" href="https://www.facebook.com/LUGRoma3"><img src="img/social/facebook.svg"> Facebook</a></li>
               <li><a target="_blank" href="https://t.me/joinchat/AAAAAEGI-q7MA0iyPcB6ng"><img src="img/social/telegram.svg"> Gruppo Telegram</a></li>

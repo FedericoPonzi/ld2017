@@ -28,22 +28,22 @@
         <div class="collapse navbar-collapse" id="navbarsExampleContainer">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda</a>
+                <a class="nav-link" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"><i class="fa fa-ticket" aria-hidden="true"></i> Biglietti </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i>
-Sponsors</a>
+                <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i> Sponsors <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i>
-About us</a>
+                <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i> About us </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contatti.php"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
-Contatti</a>
+                <a class="nav-link" href="contatti.php"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contatti </a>
             </li>
           </ul>
         </div>
@@ -55,7 +55,9 @@ Contatti</a>
           <div class="row">
               <div class="col-md-8 col-sm-8 col-xs-8">
 
-                <p class="lead">Senza i nostri gentili sponsors il Linux Day non potrebbe essere quello che &egrave;.</p>
+                <p class="lead">Senza i nostri gentili sponsors il Linux Day non potrebbe essere quello che è. Grazie mille!</p>
+                <p>Sponsorizzare il Linux Day vuol dire essere un'azienda che tiene a cuore l' <i>Open Source</i> e la <i>comunità</i> che gli sta attorno. <a href="contatti.php" title="Contattaci">Contattaci</a> per sapere come diventare sponsor.</p>
+
                 <h3 class="title">Gold</h3>
                 <div class="row">
                   <div class="col-md-6">
@@ -69,6 +71,33 @@ Contatti</a>
                     </div>
                   </div>
                 </div>
+                <h3 class="title">Silver sponsors</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card" style="">
+                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
+                      <div class="card-block">
+                        <h4 class="card-title">La tua azienda qui</h4>
+                        <p class="card-text">Ti piacerebbe sponsorizzare il Linux Day?</p>
+                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 class="title">Exhibitor sponsors</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card" style="">
+                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
+                      <div class="card-block">
+                        <h4 class="card-title">La tua azienda qui</h4>
+                        <p class="card-text">Ti piacerebbe sponsorizzare il Linux Day?</p>
+                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div><!-- / Fine main -->
             <?php include_once "partners.php" ?>
         </div>

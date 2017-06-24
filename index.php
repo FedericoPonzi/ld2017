@@ -31,19 +31,19 @@
                 <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda</a>
+                <a class="nav-link" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"> <i class="fa fa-ticket" aria-hidden="true"></i> Biglietti </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i>
-Sponsors</a>
+                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i>
-About us</a>
+                <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i> Sponsors </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contatti.php"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
-Contatti</a>
+                <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i> About us </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contatti.php"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contatti </a>
             </li>
           </ul>
         </div>

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Agenda | Linux Day 2017</title>
+    <title>Merchandising | Linux Day 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -31,13 +31,16 @@
                 <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"><i class="fa fa-ticket" aria-hidden="true"></i> Biglietti </a>
+                <a class="nav-link" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"> <i class="fa fa-ticket" aria-hidden="true"></i> Biglietti </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i> Sponsors </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="merchandising.php"> <i class="fa fa-info-circle" aria-hidden="true"></i> Merchandising <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i> About us </a>
@@ -53,48 +56,30 @@
     <div class="container main">
       <div class="jumbotron">
         <div class="row">
-            <div class="col-md-8 col-sm-8 col-xs-8">
-              <h2 class="title">Agenda</h2>
-              <p>Stiamo ancora definendo il programma della giornata. Hai un'idea per un talk? <a href="contatti.php">Parliamone</a>!</p>
-              <h3>Programma:</h3>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Orario</th>
-                    <th>Aula</th>
-                    <th>Titolo</th>
-                    <th>Speaker</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>09:30</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>10:00</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div><!-- / Fine main -->
-          <?php include_once "partners.php" ?>
+              <div class="col-md-8 col-sm-8 col-xs-8">
+                <h2 class="title">Merchandising del Linux Day 2017</h2>
+                <p class="lead">Ti piace il linux day? Sostienici acquistando una gadget dell'evento!</p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card" style="">
+                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
+                      <div class="card-block">
+                        <h4 class="card-title">Maglietta LD 2017</h4>
+                        <p class="card-text">Una maglietta fatta in cotone, per ricordare al meglio il LD2017.</p>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="B5QSQDEMKHWX8">
+<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+</form>
+                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="footer">Nota: Tutti i soldi ricevuti verranno usati per aiutare l'associazione a crescere.</p>
+            </div>
+            <?php include_once "partners.php" ?>
         </div>
       </div>
     </div><!-- /.container -->
