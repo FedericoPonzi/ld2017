@@ -6,7 +6,7 @@
         <div class="col">
             <h3>Sul LUGRoma3:</h3>
                 <p>"Un Linux User Group (LUG), o anche "Linux Users Group" e "Linux Users Group", è un gruppo formato da persone che osservano i principi del software libero ed impegnate nel diffondere i sistemi operativi basati sul kernel Linux. Questo è ciò che trovate su Wikipedia quando cercate la parola LUG.</p>
-                <a href="about-us.html">Continua a leggere...</a>
+                <a href="about-us.php">Continua a leggere...</a>
         </div>
 
         <div class="col-md-4">
