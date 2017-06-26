@@ -23,7 +23,7 @@
         <button class="navbar-toggler navbar-toggler-center" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Linux Day 2017 </a>
+        <a class="navbar-brand" href="index.php">Linux Day 2017 <img src="img/logo-linux.svg" width="64"></a>
 
         <div class="collapse navbar-collapse" id="navbarsExampleContainer">
           <?php require_once "menu.php"; ?>
@@ -52,7 +52,7 @@
 
 <p>Indica nome e cognome del/i relatore/i, e-mail, numero di telefono, una breve biografia personale, il titolo dell’intervento e un abstract riguardante il contenuto che proponi!</p>
 
-<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.it (raggiungibile anche tramite lug.uniroma2.it/linuxday17) oppure contattarci alle mail <a href="mailto:info@lugroma3.it">info@lugroma3.it</a> e <a href="mailto:roma2lug@gmail.com">roma2lug@gmail.com</a> con riferimento in oggetto <strong>[LD17]</strong>!</p>
+<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.it oppure contattarci alle mail <a href="mailto:info@lugroma3.it">info@lugroma3.it</a> e <a href="mailto:roma2lug@gmail.com">roma2lug@gmail.com</a> con riferimento in oggetto <strong>[LD17]</strong>!</p>
 
           </div>
           <?php include_once "partners.php" ?>
