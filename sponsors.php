@@ -26,26 +26,7 @@
         <a class="navbar-brand" href="index.php">Linux Day 2017</a>
 
         <div class="collapse navbar-collapse" id="navbarsExampleContainer">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link nav-link-home" href="index.php"> <i class="fa fa-home" aria-hidden="true"></i> Home </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"><i class="fa fa-ticket" aria-hidden="true"></i> Biglietti </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="agenda.php"> <i class="fa fa-calendar" aria-hidden="true"></i> Agenda </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="sponsors.php"> <i class="fa fa-star" aria-hidden="true"></i> Sponsors <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about-us.php"> <i class="fa fa-info-circle" aria-hidden="true"></i> About us </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contatti.php"> <i class="fa fa-envelope-o" aria-hidden="true"></i> Contatti </a>
-            </li>
-          </ul>
+            <?php require_once "menu.php"; ?>
         </div>
       </div>
     </nav>
@@ -58,7 +39,7 @@
                 <p class="lead">Senza i nostri gentili sponsors il Linux Day non potrebbe essere quello che è. Grazie mille!</p>
                 <p>Sponsorizzare il Linux Day vuol dire essere un'azienda che tiene a cuore l' <i>Open Source</i> e la <i>comunità</i> che gli sta attorno. <a href="contatti.php" title="Contattaci">Contattaci</a> per sapere come diventare sponsor.</p>
 
-                <h3 class="title">Gold</h3>
+                <h3 class="title">Gold sponsors</h3>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="card" style="">
