@@ -48,7 +48,8 @@
 
 <p>Quest'anno il tema affrontato durante il Linux Day sarà il diritto alla privacy ed alla riservatezza individuale.</p>
 
-<p>Come Partecipare: per proporre il tuo intervento basta inviare (entro e non oltre il 3 Settembre) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
+<h3 class="title">Come Partecipare:</h3>
+<p>Per proporre il tuo intervento basta inviare (entro e non oltre il 3 Settembre) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
 
 <p>Indica nome e cognome del/i relatore/i, e-mail, numero di telefono, una breve biografia personale, il titolo dell’intervento e un abstract riguardante il contenuto che proponi!</p>
 
