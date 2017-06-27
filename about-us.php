@@ -63,8 +63,8 @@
                 <h3 class="title">LugSapienza</h3>
                 <ul>
                   <img src="img/partners/lugsapienza.png" class="rounded img-fluid">
-                  <li><a href="https://www.facebook.com/Roma2LUG">Facebook</a></li>
                   <li><a href="http://lugsapienza.altervista.org">Sito Web</a></li>
+                  <li><a href="https://www.facebook.com/lugsapienza/">Facebook</a></li>
                 </ul>
               </div>
               <div class="col">
@@ -72,7 +72,7 @@
                 <ul>
                   <img src="img/partners/roma2lug.png" class="rounded img-fluid">
                   <li><a href="http://lug.uniroma2.it/">Sito Web</a></li>
-                  <li><a href="https://www.facebook.com/LUGRoma3/">Facebook</a></li>
+                  <li><a href="https://www.facebook.com/Roma2LUG">Facebook</a></li>
                 </ul>
               </div>
 
