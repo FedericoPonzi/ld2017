@@ -95,6 +95,7 @@ aside .row {
 
 .page-footer .social ul{
   list-style: none;
+  padding-left:0px;
 }
 .page-footer .social li{
   margin-bottom: 2em;
@@ -131,11 +132,13 @@ aside .row {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
  }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  .social{
+    padding-top:20px;
+  }
   aside div {
     margin-bottom: 1rem;
   }

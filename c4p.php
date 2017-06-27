@@ -42,16 +42,16 @@
 
 <p>Il Linux Day è l’evento nazionale dedicato a tutti coloro che sposano la filosofia di GNU/Linux, del Software Libero ed Open Source ed, in generale, a tutti i curiosi di questo mondo.</p>
 
-<p>Collabora anche tu mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
-
-<p>Ricorda però che l’evento è dedicato a GNU/Linux, daremo quindi precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware. Proposte non inerenti non verranno prese in considerazione.</p>
+<p><strong>Collabora anche tu</strong> mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
 
 <p>Quest'anno il tema affrontato durante il Linux Day sarà il diritto alla privacy ed alla riservatezza individuale.</p>
 
-<h3 class="title">Come Partecipare:</h3>
-<p>Per proporre il tuo intervento basta inviare (entro e non oltre il 3 Settembre) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
+<p>Ricorda però che l’evento è dedicato a GNU/Linux, daremo quindi precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware. Proposte non inerenti non verranno prese in considerazione.</p>
 
-<p>Indica:
+<h3 class="title">Come Partecipare:</h3>
+<p>Per proporre il tuo intervento basta inviare (<u>entro e non oltre il 3 Settembre</u>) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
+
+<p>Ti preghiamo di indicare:
   <ul>
     <li>nome e cognome del/i relatore/i,</li>
     <li>e-mail,</li>
@@ -62,7 +62,7 @@
   </ul>
   </p>
 
-<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.org oppure contattarci alle mail <a href="mailto:info@lugroma3.org">info@lugroma3.org</a> e <a href="mailto:roma2lug@gmail.com">roma2lug@gmail.com</a> con riferimento in oggetto <strong>[LD17]</strong>!</p>
+<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.org oppure contattarci alle mail <code>info[at]lugroma3[dot]org</code> e <code>roma2lug[at]gmail[dot]com</code> con riferimento in oggetto <strong>[LD17]</strong>!</p>
 
           </div>
           <?php include_once "partners.php" ?>
