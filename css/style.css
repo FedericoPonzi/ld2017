@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
 @font-face {
   font-family: MrRobot;
   src: url(../fonts/mr-robot.ttf);
@@ -96,11 +96,10 @@ aside .row {
 .page-footer .social ul{
   list-style: none;
 }
-.page-footer .social li{
+.page-footer .social li {
   margin-bottom: 2em;
 }
-.page-footer .social img
-{
+.page-footer .social img {
   width: 32px;
 }
 .footer-copyright {
@@ -108,10 +107,16 @@ aside .row {
   margin-top:3em;
 
 }
-.footer-copyright p{
+.footer-copyright p {
   padding: 1em 0;
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
+
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
 /** Fine footer **/
 
 .google-maps {
