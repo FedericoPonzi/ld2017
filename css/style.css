@@ -137,6 +137,10 @@ aside .row {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+  .navbar-custom{
+    padding: 0; 
+
+  }
  }
 
 /* Landscape phone to portrait tablet */
