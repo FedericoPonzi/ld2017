@@ -42,7 +42,7 @@
 
 <p>Il Linux Day è l’evento nazionale dedicato a tutti coloro che sposano la filosofia di GNU/Linux, del Software Libero ed Open Source ed, in generale, a tutti i curiosi di questo mondo.</p>
 
-<p>Collabora anche tu mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>s
+<p>Collabora anche tu mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
 
 <p>Ricorda però che l’evento è dedicato a GNU/Linux, daremo quindi precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware. Proposte non inerenti non verranno prese in considerazione.</p>
 
