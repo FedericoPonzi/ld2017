@@ -52,7 +52,7 @@
 
 <p>Indica nome e cognome del/i relatore/i, e-mail, numero di telefono, una breve biografia personale, il titolo dell’intervento e un abstract riguardante il contenuto che proponi!</p>
 
-<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.it oppure contattarci alle mail <a href="mailto:info@lugroma3.it">info@lugroma3.it</a> e <a href="mailto:roma2lug@gmail.com">roma2lug@gmail.com</a> con riferimento in oggetto <strong>[LD17]</strong>!</p>
+<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.org oppure contattarci alle mail <a href="mailto:info@lugroma3.org">info@lugroma3.org</a> e <a href="mailto:roma2lug@gmail.com">roma2lug@gmail.com</a> con riferimento in oggetto <strong>[LD17]</strong>!</p>
 
           </div>
           <?php include_once "partners.php" ?>
