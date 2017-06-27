@@ -50,7 +50,16 @@
 
 <p>Come Partecipare: per proporre il tuo intervento basta inviare (entro e non oltre il 3 Settembre) una e-mail a <strong>roma2lug[at]gmail[dot]com</strong> con riferimento in oggetto <strong>[CFP17]</strong>.</p>
 
-<p>Indica nome e cognome del/i relatore/i, e-mail, numero di telefono, una breve biografia personale, il titolo dell’intervento e un abstract riguardante il contenuto che proponi!</p>
+<p>Indica:
+  <ul>
+    <li>nome e cognome del/i relatore/i,</li>
+    <li>e-mail,</li>
+    <li> numero di telefono, </li>
+    <li>una breve biografia personale, </li>
+    <li>il titolo dell’intervento</li>
+    <li>un abstract riguardante il contenuto che proponi!</li>
+  </ul>
+  </p>
 
 <p>Per informazioni puoi continuare a seguirci su questo sito oppure contattarci tramite il <a href="/contatti.php">form di contatto</a>.</p>
 
