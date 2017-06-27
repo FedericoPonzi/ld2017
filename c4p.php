@@ -62,7 +62,7 @@
   </ul>
   </p>
 
-<p>Per informazioni puoi continuare a seguire il sito ld17.lugroma3.org oppure contattarci alle mail <code>info[at]lugroma3[dot]org</code> e <code>roma2lug[at]gmail[dot]com</code> con riferimento in oggetto <strong>[LD17]</strong>!</p>
+<p>Per informazioni puoi continuare a seguirci su questo sito oppure contattarci tramite il <a href="/contatti.php">form di contatto</a>.</p>
 
           </div>
           <?php include_once "partners.php" ?>

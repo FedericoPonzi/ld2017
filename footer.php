@@ -4,23 +4,23 @@
     <div class="row">
         <!-- About:-->
         <div class="col">
-            <h3>Sul LUGRoma3:</h3>
+            <h3>Sul LUG Roma Tre:</h3>
                 <p>"Un Linux User Group (LUG), o anche "Linux Users Group" e "Linux Users Group", è un gruppo formato da persone che osservano i principi del software libero ed impegnate nel diffondere i sistemi operativi basati sul kernel Linux. Questo è ciò che trovate su Wikipedia quando cercate la parola LUG.</p>
-                <a href="about-us.php">Continua a leggere...</a>
+                <a href="/about-us.php">Continua a leggere...</a>
         </div>
 
         <div class="col-md-4">
 
             <h3>Domande?</h3>
             <p>Vuoi proporre un talk? Vuoi diventare sponsor? Hai domande sull'evento?</p>
-            <p><a href="contatti.php">Scrivici</a>. Non vediamo l'ora di risponderti.</p>
+            <p><a href="/contatti.php">Scrivici</a>. Non vediamo l'ora di risponderti.</p>
         </div>
 
         <div class="col-md-3 social">
             <ul>
               <li><a target="_blank" href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"> <img src="img/social/ticket.svg"> Biglietti </a</li>
-              <li><a target="_blank" href="https://www.lugroma3.it"><img src="img/social/home.svg"> Sito LUGRoma3</a></li>
-              <li><a target="_blank" href="https://www.facebook.com/LUGRoma3"><img src="img/social/facebook.svg"> Facebook</a></li>
+              <li><a target="_blank" href="https://www.lugroma3.it"><img src="img/social/home.svg"> Sito LUG Roma Tre</a></li>
+              <li><a target="_blank" href="https://www.facebook.com/LUG Roma Tre"><img src="img/social/facebook.svg"> Facebook</a></li>
               <li><a target="_blank" href="https://t.me/joinchat/AAAAAEGI-q7MA0iyPcB6ng"><img src="img/social/telegram.svg"> Gruppo Telegram</a></li>
 
             </ul>
@@ -30,7 +30,8 @@
 <!-- copyright-->
 <div class="footer-copyright">
     <div class="container-fluid">
-      <p class="text-center">© 2017 Copyleft <a href="http://lugroma3.org"> LUGRoma3.org </a></p>
+      <p class="text-center"><span class="copyleft">&copy;</span>
+ 2017 Copyleft <a href="https://lugroma3.org"> lugroma3.org </a></p>
     </div>
 </div>
 <!--/ copyright-->
