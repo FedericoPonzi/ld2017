@@ -44,9 +44,11 @@
 
 <p><strong>Collabora anche tu</strong> mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
 
-<p>Quest'anno il tema affrontato durante il Linux Day sarà il diritto alla privacy ed alla riservatezza individuale.</p>
+<p>Collabora anche tu mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
 
 <p>Ricorda però che l’evento è dedicato a GNU/Linux, daremo quindi precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware. Proposte non inerenti non verranno prese in considerazione.</p>
+
+<p>Quest'anno il tema affrontato durante il Linux Day sarà il diritto alla privacy ed alla riservatezza individuale.</p>
 
 <h3 class="title">Come Partecipare:</h3>
 <p>Per proporre il tuo intervento basta inviare (<u>entro e non oltre il 3 Settembre</u>) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
