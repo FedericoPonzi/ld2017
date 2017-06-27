@@ -63,7 +63,7 @@
                 <h3 class="title">LugSapienza</h3>
                 <ul>
                   <img src="img/partners/lugsapienza.png" class="rounded img-fluid">
-                  <li><a href="https://www.facebook.com/groups/roma2lug/">Facebook</a></li>
+                  <li><a href="https://www.facebook.com/Roma2LUG">Facebook</a></li>
                   <li><a href="http://lugsapienza.altervista.org">Sito Web</a></li>
                 </ul>
               </div>
