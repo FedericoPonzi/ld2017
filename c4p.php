@@ -38,17 +38,24 @@
               <h2 class="title">Call 4 Papers</h2>
               <p class="lead">Proponi il tuo talk per la diciassettesima manifestazione italiana dedicata a Linux e al software libero!</p>
 
-              <p>LUGRomaTre, Roma2LUG e LugSapienza, Linux Users Group delle Università di Roma Tre, Roma Tor Vergata e Roma La Sapienza, sono lieti ed orgogliosi di annunciare l'inizio dei lavori per la 17° edizione del Linux Day della Capitale!</p>
+              <p>LUGRomaTre, Roma2LUG e LugSapienza, sono lieti ed orgogliosi di annunciare l'inizio dei lavori per la 17° edizione del Linux Day della Capitale!</p>
 
 <p>Il Linux Day è l’evento nazionale dedicato a tutti coloro che sposano la filosofia di GNU/Linux, del Software Libero ed Open Source ed, in generale, a tutti i curiosi di questo mondo.</p>
 
-<p><strong>Collabora anche tu</strong> mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
+<p><u>Collabora anche tu</u> mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, <i>inviaci la tua proposta</i> per uno speech od un workshop!</p>
 
-<p>Collabora anche tu mettendo a disposizione professionalità, entusiasmo e passione! Se hai in mente un argomento interessante e vuoi collaborare all’evento, inviaci la tua proposta per uno speech od un workshop!</p>
+<p>Quest'anno il <strong>tema</strong> affrontato durante il Linux Day sarà il <u>diritto alla privacy ed alla riservatezza individuale.</u></p>
 
-<p>Ricorda però che l’evento è dedicato a GNU/Linux, daremo quindi precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware. Proposte non inerenti non verranno prese in considerazione.</p>
-
-<p>Quest'anno il tema affrontato durante il Linux Day sarà il diritto alla privacy ed alla riservatezza individuale.</p>
+<h3 class="title">Requisiti</h3>
+<p>Per essere sicuri che ogni speaker abbia modo di vivere al meglio la propria esperienza, ci sono alcune regole da rispettare riguardo i talks e le attività:
+  <ul>
+      <li>Non possono durare più di 45 minuti; in caso sia necessario, verranno assegnati slot di tempo multipli, con una pausa di 15 minuti tra l’uno e l’altro, anche per creare una pausa per i partecipanti;</li>
+      <li>Il materiale utilizzato verrà reso disponibile a fine evento sul sito -nello spirito della giornata-, per cui i relatori sono pregati di inviare slides e altro materiale nei giorni immediatamente successivi all’evento;</li>
+      <li>Dovranno essere utilizzati pc che abbiano sistemi Unix-based;</li>
+      <li>L’evento è dedicato ai sistemi GNU/Linux, quindi daremo precedenza ai talk dedicati ad esso, considerando in seguito tutto quel che comunque riguarda l’ambito Free and Open Source Software/Hardware;</li>
+      <li>Proposte non inerenti non verranno prese in considerazione.</li>
+  </ul>
+</p>
 
 <h3 class="title">Come Partecipare:</h3>
 <p>Per proporre il tuo intervento basta inviare (<u>entro e non oltre il 3 Settembre</u>) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
@@ -57,7 +64,7 @@
   <ul>
     <li>nome e cognome del/i relatore/i,</li>
     <li>e-mail,</li>
-    <li> numero di telefono, </li>
+    <li>numero di telefono, </li>
     <li>una breve biografia personale, </li>
     <li>il titolo dell’intervento</li>
     <li>un abstract riguardante il contenuto che proponi!</li>
