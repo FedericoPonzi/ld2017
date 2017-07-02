@@ -23,7 +23,7 @@
         <button class="navbar-toggler navbar-toggler-center" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Linux Day 2017 <img src="img/logo-ld17.png" width="64"></a>
+        <a class="navbar-brand" href="index.php">Linux Day 2017 <img src="img/logo-ld17.png"  class="navbar-logo"></a>
 
         <div class="collapse navbar-collapse" id="navbarsExampleContainer">
           <?php require_once "menu.php"; ?>
