@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-table.css">
 </head>
 
 <body>
@@ -34,11 +35,11 @@
     <div class="container main">
       <div class="jumbotron">
         <div class="row">
-            <div class="col-md-8 col-sm-8 col-xs-8">
+            <div class="col-xs-12">
               <h2 class="title">Agenda</h2>
               <p>Stiamo ancora definendo il programma della giornata. Hai un'idea per un talk? <a href="contatti.php">Parliamone</a>!</p>
               <h3>Programma:</h3>
-              <table class="table">
+              <table class="table table-hover">
                 <thead>
                   <tr>
                     <th>Orario</th>
@@ -49,33 +50,16 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>09:30</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
+                    <td>08:30</td>
+                    <td style="    background: #F6F7EB;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;" colspan="9">Apertura porte</td>
                   </tr>
-                  <tr>
-                    <td></td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>10:00</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                  </tr>
+
                 </tbody>
               </table>
             </div><!-- / Fine main -->
-          <?php include_once "partners.php" ?>
         </div>
       </div>
     </div><!-- /.container -->

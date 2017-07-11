@@ -56,7 +56,7 @@
                     <label for="message">Il tuo messaggio</label>
                     <textarea class="form-control" name="message" id="message" rows="9" placeholder="Inserisci il tuo messaggio.."></textarea>
                   </div>
-                  <button id="#submit" type="submit" class="btn btn-primary btn-lg float-right"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Invia</button>
+                  <button id="submit" type="submit" class="btn btn-primary btn-lg float-right"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Invia</button>
 
                 </form>
             </div>
