@@ -70,12 +70,8 @@
                       </td>
                       <td></td>
                       <td></td>
-                      <td class="descCTF">
-                        Capture The Flag
-                      </td>
-                      <td class="descSimoneOnofri">
-                          Penetration Testing di Linux
-                      </td>
+                      <td></td>
+                      <td></td>
                       <td></td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
@@ -86,21 +82,12 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td class="descLucaRelandini">
-                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
-                      </td>
-                      <td class="descDiegoLucaCandido">
-                          Dataset: informazioni, privacy e creazione
-                      </td>
+                      <td></td>
+                      <td></td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td class="descSimoneOnofri">
-                          Penetration Testing di Linux
-                      </td>
-                      <td class="descSimonLucaDettori">
-                          Privacy & Linux: come migliorare il livello di privacy attraverso il MAC spoofing e Opera
-                      </td>
+                      <td></td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -111,9 +98,7 @@
                           Esami LPI
                       </td>
                       <td></td>
-                      <td class="descBrunoLaurencich">
-                          Capturing the human body motion with inertial sensors, the Open Source way
-                      </td>
+                      <td></td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
