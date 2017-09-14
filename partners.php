@@ -10,7 +10,7 @@
   </div>
   <div class="row">
     <div class="col">
-      <img src="img/partners/lugromatre.png" style="width: 75%;" class="img-fluid" alt="LugRomaTre">
+      <img src="img/partners/lugromatre.png" style="width: 100%;" class="img-fluid" alt="LugRomaTre">
     </div>
     <div class="col">
       <img src="img/partners/lugsapienza.png" class="rounded img-fluid" alt="LugSapienza">

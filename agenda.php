@@ -28,8 +28,6 @@
     <script src="/js/bootbox.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootstrap-table.min.js"></script>
-
-
 </head>
 
 <body>

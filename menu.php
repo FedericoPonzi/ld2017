@@ -14,6 +14,7 @@ class MenuItem{
 
 $menu_items = array(new MenuItem("Home", "index.php", "home"),
                    new MenuItem("C4P", "c4p.php", "envelope-open"),
+
                     new MenuItem("Agenda", "agenda.php", "calendar"),
                    new MenuItem("Biglietti", "https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726", "ticket"),
                    new MenuItem("Sponsors", "sponsors.php", "star"),

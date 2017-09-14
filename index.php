@@ -45,6 +45,7 @@
                 <p class="lead">Per partecipare, ricordati di prendere il biglietto gratuito a questo <a href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"about="" >link</a>  e di portare con te un documento per il check-in! </p>
                 <p>Per il programma, #stayTUXed; aggiornamento in corso.</p>
 
+
           </div>
           <?php include_once "partners.php" ?>
         </div>
