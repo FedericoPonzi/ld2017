@@ -70,7 +70,9 @@
                       </td>
                       <td></td>
                       <td></td>
-                      <td></td>
+                      <td class="descCTF">
+                          Capture The Flag
+                      </td>
                       <td></td>
                       <td></td>
                       <td class="descCoderDojo">
@@ -87,6 +89,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
+                      <td></td>
                       <td></td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
