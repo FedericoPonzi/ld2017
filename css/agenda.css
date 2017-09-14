@@ -1,0 +1,14 @@
+.img-circle {
+	  border-radius: 150px;
+	  -webkit-border-radius: 150px;
+	  -moz-border-radius: 150px;
+	  background: url(http://link-to-your/image.jpg) no-repeat;
+     width:  100px;
+     height: 100px;
+     float: left;
+     margin: 0px 15px 15px 0px;
+}
+
+table {
+  table-layout: fixed;
+}

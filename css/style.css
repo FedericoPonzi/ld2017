@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+@font-face {
+  font-family: MrRobot;
+  src: url(../fonts/mr-robot.ttf);
+  font-weight: bold;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #004d4d;
+  letter-spacing: 0.06rem;
+
+}
+
+p.lead {
+  font-size: 1.25rem;
+  letter-spacing: 0.07rem;
+}
+ol li {
+  padding-bottom:20px
+}
+p.footer{
+  font-size:0.75rem;
+}
+.btn-primary{
+  background-color:  #66BB6A;
+}
+.navbar-custom {
+  border-color: transparent;
+  padding: 1rem 1rem 2rem 0;
+  background-color: #003333;
+  box-shadow: 0px 3px 12px #202020;
+}
+.navbar-logo{
+  width:64px;
+}
+.nav-link{
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'MrRobot', 'roboto';
+  color: #ca2222 !important;
+}
+
+.text-fluid, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+aside{
+  margin-top:1rem;
+}
+aside img {
+  width: 128px;
+}
+aside .row {
+  margin-bottom: 1rem;
+}
+.title {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border-top: none;
+  padding-top: 1.2rem;
+}
+.main {
+  padding-top: 2.5rem;
+}
+
+
+
+/** Footer: **/
+.page-footer{
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #006666;
+  color: #E8EAF6;
+}
+
+.page-footer a{
+  color:white;
+  font-weight: 600;
+}
+.page-footer h3{
+  font-weight: 400;
+  font-size: 1.3em;
+  color:white;
+  text-transform: capitalize;
+  text-decoration: solid;
+}
+
+.page-footer .social ul{
+  list-style: none;
+  padding-left:0px;
+}
+.page-footer .social li {
+  margin-bottom: 2em;
+}
+.page-footer .social img {
+  width: 32px;
+}
+.footer-copyright {
+  background-color: #003333;
+  margin-top:3em;
+
+}
+.footer-copyright p {
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+/** Fine footer **/
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .navbar-custom {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+  div .descLUG{
+    height: 400px;
+    width: 50%;
+  }
