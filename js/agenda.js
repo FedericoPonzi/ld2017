@@ -41,7 +41,7 @@ $(document).ready(function(){
 	var descAbstract='<p>Lorem ipsum</p>';
 	var linkSito=' <a href="https://zen.coderdojo.com/dojos/it/bracciano-metropolitan-city-of-rome/bracciano">Sito CoderDojo</a><br>';	
 	var linkSocial=' <a href="https://www.facebook.com/coderdojo.bracciano/">Pagina ufficiale</a><br>';	
-	var eventbriteLink='  <a href="#">Biglietti</a><br>';	
+	var eventbriteLink='  <a href="https://www.eventbrite.it/e/biglietti-coderdojo-linuxdayromatre-37978513757?aff=es2">Biglietti</a><br>';
 		
 	var dialog = bootbox.dialog({
 	title: 'CoderDojo Bracciano',
