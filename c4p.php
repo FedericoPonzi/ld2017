@@ -58,7 +58,8 @@
 </p>
 
 <h3 class="title">Come Partecipare:</h3>
-<p>Per proporre il tuo intervento basta inviare (<del>entro e non oltre il 3 Settembre</del><u> posticipato al 20 Settembre</u>) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
+<p>Per proporre il tuo intervento basta inviare (<del>entro e non oltre il 3 Settembre</del><del> posticipato al 20 Settembre</del> <u> posticipato al 30 Settembre</u>) una e-mail a roma2lug[at]gmail[dot]com con riferimento in oggetto <strong>[CFP17]</strong>.</p>
+
 
 <p>Ti preghiamo di indicare:
   <ul>
