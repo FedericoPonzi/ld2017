@@ -131,7 +131,7 @@ $(document).ready(function(){
 
     //SIMON LUCA DETTORI
     $('.descSimonLucaDettori').click(function(){
-        var bioDesc="<p></p>";
+        var bioDesc="<p>Lorem Ipsum</p>";
         var img="<img class='img-circle' src='/img/tux.png'>";
         var descAbstract='<p> Partendo da recenti articoli di attualità porrò in evidenza le problematiche sull\'argomento emerse nel corso degli ultimi mesi sulla stampa nordamericana, suggerendo alcuni semplici accorgimenti "comportamentali" per migliorare il proprio livello di privacy. Nello specifico, oltre ad illustrare i rischi di privacy legati all\'hardware, tratterò l\'argomento del MAC spoofing evidenziando la necessità di prevedere scansioni periodiche antirootkit anche su macchine Linux.\n' +
             'La parte centrale dell\'intervento sarà dedicato agli utenti entry level a cui illustrerò le funzionalità VPN gratuite di default a disposizione nelle ultime versioni del browser Opera suggerendo alcuni semplici add-on (tipo: TrackMeNot, Adblock, MasterPassword+, Priv8, PwdHash, User Agent RG, Webmail AD Bloc) per aumentare il livello di riservatezza durante la navigazione. </p>';
@@ -197,7 +197,211 @@ $(document).ready(function(){
             }
         });
     });
-	
+
+    //SERENA SENSINI
+    $('.descScuolePrivacy').click(function(){
+        var bioDesc="<p>Intraprendente, determinata e razionale: sono tre aggettivi che mi descrivono al meglio.\n" +
+            "Da sempre convinta della mia scelta, ho conseguito la laurea in Ingegneria Informatica nel 2016 e sono attualmente \n" +
+            "impiegata come developer e sistemista. Nel tempo libero, dedico spazio a diversi progetti: primo fra tutti\n" +
+            "c'è lo studio e lo sviluppo di sistemi NLP; oltre a questo, buona parte del mio impegno va a supportare i più giovani \n" +
+            "ad un uso consapevole della tecnologia e di Internet.</p>";
+        var img="<img class='img-circle' src='/img/speaker/serena_sensini.jpg'>";
+        var descAbstract='<p>La tecnologia avanza ad una velocità elevatissima, e con essa tutto il mondo legato ad Internet: basti pensare\n' +
+            'agli efforts impiegati dalle multinazionali per rendere disponibile ogni tipo di servizio online. In questa era, dove i \n' +
+            'social networks giocano un ruolo fondamentale per la connessione tra persone, è necessario imparare a tutelarsi e stare\n' +
+            'attenti agli effetti collaterali: Internet è stata infatti paragonata ad un buco nero, dove tutto ciò che viene assorbito,\n' +
+            'non viene mai più recuperato.\n' +
+            '\n' +
+            'Il progresso di Internet e l\'importanza dei social networks portano però con sé delle domande: \n' +
+            'in un mondo dove la rete è una grande raccolta di dati e informazioni, come garantire la privacy individuale? \n' +
+            'Ma, soprattutto, siamo in grado di difenderci?\n</p>';
+        var linkSocial=' <a href="https://www.facebook.com/Serena.Sensini">Pagina ufficiale</a><br>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/serena-sensini/">Profilo LinkedIn</a><br>';
+        var linkGooglePlus=' <a href="https://plus.google.com/u/0/103050391889340133739">Google+</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Serena Sensini',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //CIRO SANTILLO
+    $('.descScuoleIntroLinux').click(function(){
+        var bioDesc="<p>Lorem Ipsum</p>";
+        var img="<img class='img-circle' src='/img/speaker/ciro_santillo.jpg'>";
+        var descAbstract='<p>In questo slot di tempo, cercheremo di partire dalle origini di Linux, fino ad arrivare ai giorni nostri; pro, contro\n' +
+            'e un\'introduzione pratica al mondo Open source, per rendere più consapevoli di quanto il mondo Linux sia nei posti più\n' +
+            'inaspettati.</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/ciro-santillo-2025a6ba/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Ciro Santillo',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //ALBERTO MASSIDDA
+    $('.descAlbertoMassidda').click(function(){
+        var bioDesc="<p>Alberto Massidda, classe ‘83, Linuxettaro dal 2005. Si occupa di infrastrutture e sviluppo software orientato alla scalabilità e adora l’IA. Ha lavorato a Memopal (backup online), Translated (IA applicata alle traduzioni), Wimdu (rivale europeo di AirBnB) e a Number26 (prima banca cloud d’Europa). Dal 2016 lavora a Wanderio (prima biglietteria universale per viaggi).\n</p>";
+        var img="<img class='img-circle' src='/img/speaker/alberto_massidda.jpg'>";
+        var descAbstract='<p>In questo intervento esploreremo l’adozione della tecnologia di container dai punti di vista sviluppo software e sistemistico, in armonia con i principi DevOps.\n' +
+            'Partiremo con un’introduzione base su Docker e col setup locale; proseguiremo con la migrazione di un’applicazione da bare metal a Docker, introdurremo il concetto di stack con Docker Compose, ci sposteremo sui sistemi di orchestrazione come Swarm e Kubernetes, per finire con le piattaforme di gestione come AWS Elastic Beanstalk e Rancher.\n</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/albertomassidda/detail/photo/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Alberto Massidda',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //CAMELIA BOBAN
+    $('.descCameliaBoban').click(function(){
+        var bioDesc="<p>Analista programmatrice interessata di gender gap e semantic web. Wikip(m)ediana, convinta che l'open source apre gli orizzonti non solo il codice. Fondatrice di WikiDonne.         </p>";
+        var img="<img class='img-circle' src='/img/speaker/camelia_boban.jpg'>";
+        var descAbstract='<p>Biografie di Persone Viventi. Enciclopedicità e verificabilità rispettando privacy e dati personali. Yes, we can!\n</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/camelia-boban-31319122/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Camelia Boban',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //GIANLUCA GRANERO
+    $('.descGianlucaGranero').click(function(){
+        var bioDesc="<p>Grown with a German mother and an entrepreneur father becoming a computer science engineer was the more artistic career I could ever start.\n" +
+            "Had my first commodor at the age of 6 (1982!) and there first lines of code in basic and never stopped.  When linux came out in the 90s it was love at first sight, it made me feel I had all I needed to develop ANY idea. I cofounded a Linux User Group at Roma3 University with a bounch of smart and crazy fellow students.\n" +
+            "I am involved in internet based activities since 1999. I developed many sites and communities from scratch up to more then 100M page views per month, deploying linux in all possible flavours.\n" +
+            "I co-founded Memopal (http://www.memopal.com) in 2007 and lead its tech operation and financials.\n" +
+            "In August 2016 Memopal has been acquired by Defenx PLC a listed company focused on security. The whole team merged into it, transforming Memopal's HeadQuarter into the tech hub for Defenx PLC group. Now that wanted me to become CTO of the whole group.\n" +
+            " On my way I also supported some promising startups, sometimes as advisor, sometimes as board member, to some of those companies, such as Filo, WeFix, Wanderio, Filo, wineOwine, Voverc, Moovenda...\n</p>";
+        var img="<img class='img-circle' src='/img/speaker/gianluca_granero.jpg'>";
+        var descAbstract='<p>Breve excursus, non esaustivo, guidato da piccoli indizi realmente successi nella mia vita di tutti i giorni, come trovarmi geolocalizzato a 40km di distanza da casa mia tutte le sere. Un piccolo aiuto per capire le principali tracce digitali che lasciamo nella nostra vita quotidiana.  Per imparare a distinguere tra la persona, il consumatore visto dalla prospettiva di una corporation e la vittima di un truffatore, o di una azienda che lavora troppo vicino all\'illegalità. \n' +
+            'Capirle un po\' meglio per sapere da quali è necessario proteggerci e su quali possiamo fare un compromesso con maggiore serenità.\n</p>';
+        var linkSito=' <a href="http://www.memopal.com">Sito </a><br>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/gianlucagranero/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Gianluca Granero',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //MARIO CARTIA
+    $('.descMarioCartia').click(function(){
+        var bioDesc="<p>I was born in Siracusa 39 years ago. I studied Computer Science at University of Catania and achieved a diploma of specialization in \"Computer security and digital forensic\" at the University of Teramo. Over 15 years of experience as a trainer and consultant in Italian and multinational IT companies. In the last five years I have dedicated myself to training and consultancy in the field of Big Data and Artificial Intelligence.</p>";
+        var img="<img class='img-circle' src='/img/speaker/mario_cartia.jpg'>";
+        var descAbstract='<p>Durante il talk saranno introdotti in maniera semplice questi argomenti, naturalmente con un minimo di approfondimento/esempi di casi d\'uso reali, quindi parlando delle librerie/framework più utilizzati e di applicazioni odierne.\n</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/mariocartia/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Mario Cartia',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //DANIELE SCASCIAFRATTE
+    $('.descDanieleScasciafratte').click(function(){
+        var bioDesc="<p>Daniele Scasciafratte, the Open Source Multiversal guy, he should work in his web agency, Codeat in Rome, and in the rest of the day collaborate in many open source projects.\n" +
+            "During the office hours for the WordPress world is a Core Contributor, plugin developer, project translator editor.\n" +
+            "He fight with the superpower of a Mozilla Rep and Mozilla TechSpeakers for an open web, is co-leading the participation team of Mozilla Italia and often is an Italian gestures speaker.\n</p>";
+        var img="<img class='img-circle' src='/img/speaker/daniele_scasciafratte.jpg'>";
+        var descAbstract='<p>Firefox 57 cosa ci aspetta\n' +
+            'Firefox 57 arriverà a Novembre e rivoluzionerà Firefox dopo Firefox 29. Cosa ci aspetta come utenti e sviluppatori di internet?\n' +
+            '30 minuti\n' +
+            '\n' +
+            '\n' +
+            'Come sta messo Internet: Internet Health Report\n' +
+            'IHR è un progetto di Mozilla per poter discutere, misurare ed analizzare i problemi e le minacce alla rete che rientra nel manifesto Mozilla riguardo l\'uso e l\'accesso ad internet.\n' +
+            '30 minuti\n</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/danielescasciafratte/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Daniele Scasciafratte',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //SARA DI BARTOLOMEO
+    $('.descSaraDiBartolomeo').click(function(){
+        var bioDesc="<p>Hello! I am Sara.\n" +
+            "I am a Software Engineering student by day, and a painter by night. I try to mix art and algorithms in an attempt to get this two parts of me together.\n" +
+            "\n" +
+            "My interests range from Data Science, 3D Computer Graphics, Data Visualization, Machine Learning, Natural Language Processing and Algorithms to Digital Painting, Traditional Painting and Generative Art.\n" +
+            "\n" +
+            "I like sharing my knowledge, and finding all sorts of ways to get people interested. For this purpose, I teach coding courses to children, organize workshops, and keep up a strong passion in open source software.\n" +
+            "\n" +
+            "I also like parrots.</p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>La meravigliosa computer grafica a cui veniamo esposti tutti i giorni non è solo merito dei grafici: c\'è un sacco di matematica e programmazione che passano tra la creazione di un modello 3D e la sua rappresentazione, ma la diamo per scontata perché ci viene nascosta dalle game engine e dai motori di rendering.\n' +
+            ' \n' +
+            'GLSL è un linguaggio di programmazione per dare istruzioni alla scheda grafica su come rappresentare una scena in 3D, sia su pc sia su smartphone. Conoscere GLSL ci permette di creare gli effetti che vogliamo, e apre nuove strade per l\'ottimizzazione.\n' +
+            '\n' +
+            'Durante il workshop, esploreremo le profondità del processo di rendering, capiremo cos\'è uno shader e impareremo a farne per migliorare le nostre scene in 3D.\n</p>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/sara-di-bartolomeo-84b45661/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Sara Di Bartolomeo',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
 	//TEMPLATE
 	$('.className').click(function(){
 	var bioDesc="<p></p>";

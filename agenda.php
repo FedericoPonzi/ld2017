@@ -54,9 +54,9 @@
                   <tr>
                       <th>#</th>
                       <th>Aula N3</th>
-                      <th>Aula N4</th>
-                      <th>Aula N5</th>
+                      <th>Aula N6</th>
                       <th>Aula N7</th>
+                      <th>Aula N8</th>
                       <th>Aula N10</th>
                       <th>Aula N11</th>
                       <th>Laboratorio Campus</th>
@@ -68,13 +68,21 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuolePrivacy">
+                          Keep it secret: la privacy non è un'opzione
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descAlbertoMassidda">
+                          Docker e Kubernetes
+                      </td>
+                      <td class="descBrunoLaurencich">
+                          Capturing the human body motion with inertial sensors, the Open Source way
+                      </td>
+                      <td class="descGianlucaGranero">
+                          Basta usare Linux per essere "protetti"?
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -84,13 +92,21 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuoleIntroLinux">
+                          From zero to hero: introduzione a Linux
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descAlbertoMassidda">
+                          Docker e Kubernetes
+                      </td>
+                      <td class="descCameliaBoban">
+                          Wikipedia e BPV
+                      </td>
+                      <td class="descLucaRelandini">
+                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -100,13 +116,21 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuoleIntroLinux">
+                          From zero to hero: introduzione a Linux
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descDiegoLucaCandido">
+                          Dataset: informazioni, privacy e creazione
+                      </td>
+                      <td class="descMarioCartia">
+                          Artificial Intelligence, Machine Learning e Deep Learning: facciamo chiarezza
+                      </td>
+                      <td class="descSimonLucaDettori">
+                          Privacy & Linux: come migliorare il livello di privacy attraverso il MAC spoofing e Opera
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -126,13 +150,19 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuolePrivacy">
+                          Keep it secret: la privacy non è un'opzione
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
+                      <td class="descSaraDiBartolomeo">
+                          Let there be light: introduction to GLSL
+                      </td>
                       <td></td>
-                      <td></td>
+                      <td class="descSimoneOnofri">
+                          Penetration Testing di Linux
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -142,13 +172,19 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuoleIntroLinux">
+                          From zero to hero: introduzione a Linux
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
+                      <td class="descRobertoReale">
+                          Il progetto Kalipto
+                      </td>
                       <td></td>
-                      <td></td>
+                      <td class="descSimoneOnofri">
+                          Penetration Testing di Linux
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
@@ -158,13 +194,19 @@
                       <td class="descLinuxInstitute">
                           Esami LPI
                       </td>
-                      <td></td>
-                      <td></td>
+                      <td class="descScuoleIntroLinux">
+                          From zero to hero: introduzione a Linux
+                      </td>
                       <td class="descCTF">
                           Capture The Flag
                       </td>
+                      <td class="descMaurizioPizzonia">
+                          Il progetto USB checkin
+                      </td>
                       <td></td>
-                      <td></td>
+                      <td class="descDanieleScasciafratte">
+                          Firefox 57 cosa ci aspetta + Come sta messo Internet: Internet Health Report
+                      </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
                       </td>
