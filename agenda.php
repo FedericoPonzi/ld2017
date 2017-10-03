@@ -200,9 +200,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td class="descMaurizioPizzonia">
-                          Il progetto USB checkin
-                      </td>
+                      <td></td>
                       <td></td>
                       <td class="descDanieleScasciafratte">
                           Firefox 57 cosa ci aspetta + Come sta messo Internet: Internet Health Report

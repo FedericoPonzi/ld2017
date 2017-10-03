@@ -175,7 +175,7 @@ $(document).ready(function(){
     //CAPTURE THE FLAG
     $('.descCTF').click(function(){
         var bioDesc="<p>Organizzato dal LUG Sapienza, si propone come gioco di hacking dove in squadra o da soli, si cercano vulnerabilità cercano vulnerabilità in sistemi e software messi a disposizione dagli organizzatori della competizione al fine di sfruttarle e di collezionare le varie flag (bandiere) nascoste sul sistema bersaglio. </p>";
-        var img="<img class='img-circle' src='/img/tux.png'>";
+        var img="<img class='img-circle' src='/img/partners/lugsapienza.png'>";
         var descAbstract='<p><b>Programma della giornata: </b></p>' + '<p>ore 9.30: breve introduzione su cosa andranno ad affrontare e alcuni semplici esempi<br>' +
             'ore 10.30: inizia il CTF<br>' +
             'ore 13.00: pausa pranzo<br>' +
@@ -234,7 +234,10 @@ $(document).ready(function(){
 
     //CIRO SANTILLO
     $('.descScuoleIntroLinux').click(function(){
-        var bioDesc="<p>Lorem Ipsum</p>";
+        var bioDesc="<p>Studente appassionato del pinguino che nel 2015 fonda, insieme ai suoi colleghi, il LUG a Roma Tre, per portare avanti il supporto\n" +
+            "e il sostegno al mondo Open. Dal 2015 lavora in Airgloss (Monitoraggio qualità dell'aria e termostatazione intelligente) e, nel\n" +
+            "tempo libero, si occupa inoltre di erogare Corsi Linux all'interno della facoltà di Ingegneria a Roma Tre. \n" +
+            "Adora suonare e fa parte di una band.</p>";
         var img="<img class='img-circle' src='/img/speaker/ciro_santillo.jpg'>";
         var descAbstract='<p>In questo slot di tempo, cercheremo di partire dalle origini di Linux, fino ad arrivare ai giorni nostri; pro, contro\n' +
             'e un\'introduzione pratica al mondo Open source, per rendere più consapevoli di quanto il mondo Linux sia nei posti più\n' +
@@ -393,6 +396,26 @@ $(document).ready(function(){
             title: 'Sara Di Bartolomeo',
             size: "large",
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //ROBERTO REALE
+    $('.descRobertoReale').click(function(){
+        var bioDesc="<p>Lorem Ipsum</p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>Kalipto: si tratta di un framework per lo scambio di messaggi tramite steganografia ed api pubbliche (nella fattispecie quelle di Twitter, ma il meccanismo è facilmente generalizzabile), inteso come proof of concept delle potenzialità che canali di comunicazione "non standard" offrono in tal senso, e nello stesso tempo dei rischi che essi pongono.\n</p>';
+        var linkSito=' <a href="https://github.com/robertoreale/kalipto ">Sito </a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Roberto Reale',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
                 ok: {
                     label: labelButton,
