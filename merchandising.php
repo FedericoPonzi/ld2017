@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Merchandising | Linux Day 2017</title>
+    <title>Magliette | Linux Day 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -35,29 +35,52 @@
       <div class="jumbotron">
         <div class="row">
               <div class="col-md-8 col-sm-8 col-xs-8">
-                <h2 class="title">Merchandising del Linux Day 2017</h2>
-                <p class="lead">Ti piace il linux day? Sostienici acquistando una gadget dell'evento!</p>
+                <h2 class="title">Magliette del Linux Day 2017</h2>
+                <p class="lead">Ti piace il Linux Day? Sostienici facendo una donazione o acquistando una delle nostre magliette!</p>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="card" style="">
-                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
-                      <div class="card-block">
-                        <h4 class="card-title">Maglietta LD 2017</h4>
-                        <p class="card-text">Una maglietta fatta in cotone, per ricordare al meglio il LD2017.</p>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="B5QSQDEMKHWX8">
-<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-</form>
-                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
-                      </div>
+                      <img class="card-img-top" src="img/merchandising/TheresNoPlaceLikeHome.jpg" alt="Diventa sponsor" style="width:20em;">
                     </div>
                   </div>
+                    <div class="col-md-6">
+                        <div class="card" style="">
+                            <img class="card-img-top" src="/img/merchandising/MayTheSourceBeWithYou.jpg" style="width:20em;">
+                        </div>
+                    </div>
                 </div>
-                <p class="footer">Nota: Tutti i soldi ricevuti verranno usati per aiutare l'associazione a crescere.</p>
+                  <br>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                              <input type="hidden" name="cmd" value="_s-xclick">
+                              <input type="hidden" name="hosted_button_id" value="YJAQNTNTTHGWG">
+                              <table>
+                                  <tr><td><input type="hidden" name="on0" value="Scegli la tua maglietta">Scegli la tua maglietta</td></tr><tr><td><select name="os0">
+                                              <option value="May The Source Be With You - Taglia S">May The Source Be With You - Taglia S €10,00 EUR</option>
+                                              <option value="May The Source Be With You - Taglia M">May The Source Be With You - Taglia M €10,00 EUR</option>
+                                              <option value="May The Source Be With You - Taglia L">May The Source Be With You - Taglia L €10,00 EUR</option>
+                                              <option value="May The Source Be With You - Taglia XL">May The Source Be With You - Taglia XL €10,00 EUR</option>
+                                              <option value="May The Source Be With You - Taglia XXL">May The Source Be With You - Taglia XXL €10,00 EUR</option>
+                                              <option value="There's No Place Like /home- Taglia S">There's No Place Like /home- Taglia S €10,00 EUR</option>
+                                              <option value="There's No Place Like /home- Taglia M">There's No Place Like /home- Taglia M €10,00 EUR</option>
+                                              <option value="There's No Place Like /home- Taglia L">There's No Place Like /home- Taglia L €10,00 EUR</option>
+                                              <option value="There's No Place Like /home- Taglia XL">There's No Place Like /home- Taglia XL €10,00 EUR</option>
+                                              <option value="There's No Place Like /home- Taglia XXL">There's No Place Like /home- Taglia XXL €10,00 EUR</option>
+                                          </select> </td></tr>
+                              </table>
+                              <input type="hidden" name="currency_code" value="EUR">
+                              <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
+                              <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+                          </form>
+
+                      </div>
+
+                  </div>
+                <p class="footer">Nota: Tutti i soldi ricevuti verranno usati per aiutare l'associazione a crescere, e per far crescere i propri sostenitori. Grazie a questi fondi, potremo migliorarci e continuare ad offrire corsi annuali gratuiti di Linux, supporto e assistenza durante tutto l'anno, nonché organizzare eventi come il Linux Day!</p>
             </div>
             <?php include_once "partners.php" ?>
+
         </div>
       </div>
     </div><!-- /.container -->

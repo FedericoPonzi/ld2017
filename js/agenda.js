@@ -38,7 +38,15 @@ $(document).ready(function(){
 	$('.descCoderDojo').click(function(){
 	var bioDesc="<p>The CoderDojo movement believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so. To that end, we’ve built a global network of free, volunteer-led, community-based programming clubs for young people. Anyone aged seven to seventeen can visit a Dojo where they can learn to code, build a website, create an app or a game, and explore technology in an informal, creative, and social environment.</p>";
 	var img="<img class='img-circle' src='/img/speaker/coderdojoBracciano.jpg'>";
-	var descAbstract='<p>Lorem ipsum</p>';
+	var descAbstract='<p>Per il nostro viaggio nel fantastico mondo del coding al LinuxDay 2017 useremo Scratch.\n' +
+        'Per partecipare al nostro incontro è necessario:\n' +
+        '<ul>\n' +
+        '<li>avere dagli 8 anni in poi;</li>\n' +
+        '<li>essere iscritti tramite questa pagina ad uno dei posti disponibili per il corso;</li>\n' +
+        '<li>i ragazzi (non è necessaria alcuna esperienza precedente) dovrebbero portare un quaderno (o un blocco note);</li>\n' +
+        '<li>portare una merenda per la pausa che si terrà durante l\'evento;</li>\n' +
+        '<li>avere un genitore o adulto responsabile presente durante tutta la durata dell\'evento <b>(obbligatorio!)</b>.</li>\n' +
+        '</ul> </p>';
 	var linkSito=' <a href="https://zen.coderdojo.com/dojos/it/bracciano-metropolitan-city-of-rome/bracciano">Sito CoderDojo</a><br>';	
 	var linkSocial=' <a href="https://www.facebook.com/coderdojo.bracciano/">Pagina ufficiale</a><br>';	
 	var eventbriteLink='  <a href="https://www.eventbrite.it/e/biglietti-coderdojo-linuxdayromatre-37978513757?aff=es2">Biglietti</a><br>';
@@ -174,9 +182,14 @@ $(document).ready(function(){
 
     //CAPTURE THE FLAG
     $('.descCTF').click(function(){
-        var bioDesc="<p>Organizzato dal LUG Sapienza, si propone come gioco di hacking dove in squadra o da soli, si cercano vulnerabilità cercano vulnerabilità in sistemi e software messi a disposizione dagli organizzatori della competizione al fine di sfruttarle e di collezionare le varie flag (bandiere) nascoste sul sistema bersaglio. </p>";
+        var bioDesc="<p>Organizzato dal LUG Sapienza, si propone come gioco di hacking dove in squadra o da soli, si cercano vulnerabilità in sistemi e software messi a disposizione dagli organizzatori della competizione al fine di sfruttarle e di collezionare le varie flag (bandiere) nascoste sul sistema bersaglio. </p>";
         var img="<img class='img-circle' src='/img/partners/lugsapienza.png'>";
-        var descAbstract='<p><b>Programma della giornata: </b></p>' + '<p>ore 9.30: breve introduzione su cosa andranno ad affrontare e alcuni semplici esempi<br>' +
+        var descAbstract='<p><b>Regole</b></p>\n' +
+            '<ul>\n' +
+            '<li>Si può partecipare da soli o in gruppo</li>\n' +
+            '<li>Ogni partecipante deve essere munito di un proprio portatile</li>\n' +
+            '<li>Non ci sono requisiti minimi, se non la voglia di partecipare e mettersi alla prova!</li>\n' +
+            '</ul><p><b>Programma della giornata: </b></p>' + '<p>ore 9.30: breve introduzione su cosa andranno ad affrontare e alcuni semplici esempi<br>' +
             'ore 10.30: inizia il CTF<br>' +
             'ore 13.00: pausa pranzo<br>' +
             'ore 14.00: si ricomincia<br>' +

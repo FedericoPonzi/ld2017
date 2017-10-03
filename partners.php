@@ -21,15 +21,15 @@
       <img src="img/partners/roma2lug.png" class="img-fluid" alt="Roma2Lug">
     </div>
   </div>
-  <div class="row">
-    <!-- display:none dovrai stare, finchè un iban non compare -->
-    <div style="display:none; padding-top:30px; margin: 0 auto;">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="B5QSQDEMKHWX8">
-      <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
-      <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-      </form>
+    <br>
+    <div class="row">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="6D4S63K8SJAJ2">
+            <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
+            <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+        </form>
     </div>
+
   </div>
 </aside>

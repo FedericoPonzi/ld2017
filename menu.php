@@ -12,13 +12,14 @@ class MenuItem{
   }
 }
 
-$menu_items = array(new MenuItem("Home", "index.php", "home"),
+$menu_items = array(
 
-                    new MenuItem("Agenda", "agenda.php", "calendar"),
-                   new MenuItem("Biglietti", "https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-38033504235", "ticket"),
-                   new MenuItem("Sponsors", "sponsors.php", "star"),
-                   new MenuItem("About us", "about-us.php", "info-circle"),
-                   new MenuItem("Contatti", "contatti.php", "envelope-o"),
+                new MenuItem("Agenda", "agenda.php", "calendar"),
+                new MenuItem("T-shirts", "merchandising.php", "calendar"),
+                new MenuItem("Biglietti", "https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-38033504235", "ticket"),
+                new MenuItem("Sponsors", "sponsors.php", "star"),
+                new MenuItem("About us", "about-us.php", "info-circle"),
+                new MenuItem("Contatti", "contatti.php", "envelope-o"),
                    )
 ?>
 <ul class="navbar-nav ml-auto">
