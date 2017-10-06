@@ -46,7 +46,10 @@
                       <img class="card-img-top" src="img/sponsors/PcQuadro%202017.jpg" alt="Pc Informatica" style="width:20em;">
                       <div class="card-block">
                         <h4 class="card-title">Pc Informatica</h4>
-                        <p class="card-text">Negozio: V.le delle Province 87/89 00161 - Roma</p>
+                        <p class="card-text">
+                          <p><b>Informatica per passione</b></p>
+                          <p><i>Specializzati in PC assemblati ad alte prestazioni</i></p>
+                          Negozio: V.le delle Province 87/89 00161 - Roma</p>
                           <p class="card-text">Tel. 06/44254373</p>
                           <a href="www.pcquadro.it" >www.pcquadro.it</a>
                           <p class="card-text">ORARIO: 10/19:30 NO Stop - Sabato 10/14.00</p>
