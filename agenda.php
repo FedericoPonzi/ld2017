@@ -48,6 +48,8 @@
       <div class="jumbotron">
           <h2><i class="fa fa-calendar"></i> Agenda</h2>
           <p>Il programma verrà continuamente aggiornato, quindi #stayTUXed!</p>
+
+          <h3><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
           <div class="table-responsive table-bordered table-hover w3-striped w3-bordered w3-table">
               <table class="table w3-striped">
                   <thead>
@@ -159,7 +161,9 @@
                       <td class="descSaraDiBartolomeo">
                           Let there be light: introduction to GLSL
                       </td>
-                      <td></td>
+                      <td class="descMarcoPanto">
+                          Brute Force attacks - hacklab
+                      </td>
                       <td class="descSimoneOnofri">
                           Penetration Testing di Linux
                       </td>
@@ -181,7 +185,9 @@
                       <td class="descRobertoReale">
                           Il progetto Kalipto
                       </td>
-                      <td></td>
+                      <td class="descLucaVidoni">
+                          Honeypots - hacklab
+                      </td>
                       <td class="descSimoneOnofri">
                           Penetration Testing di Linux
                       </td>
@@ -200,7 +206,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td></td>
+                     <td></td>
                       <td></td>
                       <td class="descDanieleScasciafratte">
                           Firefox 57 cosa ci aspetta + Come sta messo Internet: Internet Health Report

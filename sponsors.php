@@ -46,6 +46,8 @@
                       <img class="card-img-top" src="img/sponsors/PcQuadro%202017.jpg" alt="Pc Informatica" style="width:20em;">
                       <div class="card-block">
                         <h4 class="card-title">Pc Informatica</h4>
+                          <p><i>Informatica per passione</i>
+                              <b>Specializzati in PC assemblati ad alte prestazioni</b></p>
                         <p class="card-text">Negozio: V.le delle Province 87/89 00161 - Roma</p>
                           <p class="card-text">Tel. 06/44254373</p>
                           <a href="www.pcquadro.it" >www.pcquadro.it</a>
@@ -53,16 +55,28 @@
                       </div>
                     </div>
                   </div>
+                    <div class="col-md-6">
+                        <div class="card" style="">
+                            <img class="card-img-top" src="img/sponsors/Illuminati%20Catering.jpg" alt="Con passione il nostro meglio" style="width:20em;">
+                            <div class="card-block">
+                                <h4 class="card-title">Catering Illuminati</h4>
+                                <p><i>Con passione, il nostro meglio</i>
+                                    <b>OLTRE IL CATERING...</b></p>
+                                <p class="card-text">cell. 335 18 49 518 - 329 63 44 878</p>
+                                <p class="card-text">illuminatisrl@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <h3 class="title">Silver sponsors</h3>
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="card" style="">
-                      <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Linuxday06.png/220px-Linuxday06.png" alt="Diventa sponsor" style="width:20em;">
+                      <img class="card-img-top" src="/img/sponsors/LinuxShell.gif" alt="LinuxShell Italia" style="width:20em;">
                       <div class="card-block">
-                        <h4 class="card-title">La tua azienda qui</h4>
-                        <p class="card-text">Ti piacerebbe sponsorizzare il Linux Day?</p>
-                        <a href="#" class="btn btn-primary btn-lg float-right">Contattaci</a>
+                        <h4 class="card-title">Linux Shell</h4>
+                        <p class="card-text">Corsi e Certificazioni sul Sistema Gnu/Linux - Formazione Professionale Informatica </p>
+                          <a href="http://www.linuxshell.it/" >http://www.linuxshell.it/</a>
                       </div>
                     </div>
                   </div>

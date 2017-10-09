@@ -195,13 +195,15 @@ $(document).ready(function(){
             'ore 14.00: si ricomincia<br>' +
             'ore 15.30 fine gioco e soluzione dei vari flag<br>' +
             'ore 16.30: premiazione</p>';
+        var linkCTFDownload = '<a href="/img/agenda/Capture%20the%20flag%C2%A0.pdf">Scarica il programma!</a><br>';
+        var infoIcon = '<i class="fa fa-info"></i> ';
         var linkSito=' <a href="">Sito </a><br>';
         var linkSocial=' <a href="">Pagina ufficiale</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Capture The Flag',
             size: "large",
-            message: img + labelBio + bioDesc + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial,
+            message: img + labelBio + bioDesc + descAbstract + infoIcon + linkCTFDownload +  wwwIcon + linkSito + socialIcon + linkSocial,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -427,6 +429,52 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Roberto Reale',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //LUCA VIDONI
+    $('.descLucaVidoni').click(function(){
+        var bioDesc="<p>Developer - Gnu/Linux Certified System Administrator LSI 104 - Forensic Analyst </p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>Hacklab networking strumenti di difesa ambito offensive security' +
+            '<br><br>Intro: Marco Pantò' +
+            '<br>Talk: Luca Vidoni\n' +
+            '<br>Livello intermedio avanzato</p>';
+        var linkSito=' <a href="http://www.linuxshell.it/">Sito </a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Luca Vidoni',
+            size: "large",
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //MARCO PANTÒ
+    $('.descMarcoPanto').click(function(){
+        var bioDesc="<p>Presidente e Coordinatore Linuxshell - Net Security Engineer</p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>Hacklab capire l\'attacco per organizzare la difesa\n' +
+            'ambito offensive security\n' +
+            '<br><br>Intro e Talk: Marco Pantò\n' +
+            '<br>Livello intermedio avanzato\n</p>';
+        var linkSito=' <a href="http://www.linuxshell.it/">Sito </a><br>';
+
+        var dialog = bootbox.dialog({
+            title: 'Marco Pantò',
             size: "large",
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
