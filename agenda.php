@@ -21,6 +21,11 @@
 
     <link href="css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      table tr td{
+        cursor: pointer;
+      }
+      </style>
 
     <script src="/js/jquery.min.js"></script>
     <script src="js/agenda.js" charset="utf-8"></script>
@@ -50,8 +55,9 @@
           <p>Il programma verrà continuamente aggiornato, quindi #stayTUXed!</p>
 
           <h3><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
+
           <div class="table-responsive table-bordered table-hover w3-striped w3-bordered w3-table">
-              <table class="table w3-striped">
+                      <table class="table w3-striped">
                   <thead>
                   <tr>
                       <th>#</th>

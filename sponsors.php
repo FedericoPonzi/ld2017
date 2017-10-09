@@ -46,9 +46,16 @@
                       <img class="card-img-top" src="img/sponsors/PcQuadro%202017.jpg" alt="Pc Informatica" style="width:20em;">
                       <div class="card-block">
                         <h4 class="card-title">Pc Informatica</h4>
+<<<<<<< HEAD
                           <p><i>Informatica per passione</i>
                               <b>Specializzati in PC assemblati ad alte prestazioni</b></p>
                         <p class="card-text">Negozio: V.le delle Province 87/89 00161 - Roma</p>
+=======
+                        <p class="card-text">
+                          <p><b>Informatica per passione</b></p>
+                          <p><i>Specializzati in PC assemblati ad alte prestazioni</i></p>
+                          Negozio: V.le delle Province 87/89 00161 - Roma</p>
+>>>>>>> 27f1dedeb6d2b8f9dc7b55fc60152d50f88df7f9
                           <p class="card-text">Tel. 06/44254373</p>
                           <a href="www.pcquadro.it" >www.pcquadro.it</a>
                           <p class="card-text">ORARIO: 10/19:30 NO Stop - Sabato 10/14.00</p>

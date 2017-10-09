@@ -42,7 +42,7 @@
                 Location romana per l'evento di quest'anno sarà l'Università degli Studi Roma Tre, presso il Dipartimento di Ingegneria</a>. </p>
                 <p>Quest'anno il tema affrontato durante il Linux Day sarà la <strong>privacy e la riservatezza individuale</strong>: cos'è la privacy e quanto possiamo parlare di privacy nell'ambito tecnologico?
                 <p>Esiste ancora il concetto primitivo di privacy? Tutti abbiamo qualcosa da nascondere, ma forse non è più possibile...</p>
-                <p class="lead">Per partecipare, ricordati di prendere il biglietto gratuito a questo <a href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-35650874726"about="" >link</a>  e di portare con te un documento per il check-in! </p>
+                <p class="lead">Per partecipare, ricordati di prendere il biglietto gratuito a questo <a href="https://www.eventbrite.it/e/biglietti-linux-day-2017-roma-38033504235">link</a> e di portare con te un documento per il check-in! </p>
                 <p>Per il programma, controlla l'agenda!</p>
 
 
