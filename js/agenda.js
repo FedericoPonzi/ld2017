@@ -23,7 +23,7 @@ $(document).ready(function(){
 		
 	var dialog = bootbox.dialog({
 	title: 'Linux Professional Institute',
-    size: "large",
+     size: "large",onEscape: true, backdrop: true,
 	message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + ticketIcon + eventbriteLink,
 	buttons: {
 		ok: {
@@ -53,7 +53,7 @@ $(document).ready(function(){
 		
 	var dialog = bootbox.dialog({
 	title: 'CoderDojo Bracciano',
-    size: "large",
+     size: "large",onEscape: true, backdrop: true,
 	message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + ticketIcon + eventbriteLink,
 	buttons: {
 		ok: {
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Luca Relandini',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + linkedInIcon + linkLinkedIn + labelBlog + linkBlog,
             buttons: {
                 ok: {
@@ -104,7 +104,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Bruno Laurencich',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -126,7 +126,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Diego Luca Candido',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
             buttons: {
                 ok: {
@@ -147,7 +147,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Simon Luca Dettori',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -169,7 +169,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Simone Onofri',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -202,7 +202,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Capture The Flag',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + descAbstract + infoIcon + linkCTFDownload +  wwwIcon + linkSito + socialIcon + linkSocial,
             buttons: {
                 ok: {
@@ -236,7 +236,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Serena Sensini',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
             buttons: {
                 ok: {
@@ -261,7 +261,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Ciro Santillo',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -282,7 +282,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Alberto Massidda',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -302,7 +302,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Camelia Boban',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -329,7 +329,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Gianluca Granero',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -349,7 +349,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Mario Cartia',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -378,7 +378,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Daniele Scasciafratte',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -409,7 +409,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Sara Di Bartolomeo',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
@@ -429,7 +429,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Roberto Reale',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
                 ok: {
@@ -452,7 +452,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Luca Vidoni',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
                 ok: {
@@ -475,7 +475,7 @@ $(document).ready(function(){
 
         var dialog = bootbox.dialog({
             title: 'Marco Pantò',
-            size: "large",
+             size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
                 ok: {
@@ -488,24 +488,25 @@ $(document).ready(function(){
 
 	//TEMPLATE
 	$('.className').click(function(){
-	var bioDesc="<p></p>";
-	var img="<img class='img-circle' src='/img/tux.png'>";
-	var descAbstract='<p>Lorem ipsum</p>';
-	var linkSito=' <a href="">Sito </a><br>';	
-	var linkSocial=' <a href="">Pagina ufficiale</a><br>';	
-	var linkLinkedIn=' <a href="">Profilo LinkedIn</a><br>';
-	var linkGooglePlus=' <a href="">Google+</a><br>';
-		
-	var dialog = bootbox.dialog({
-	title: 'CoderDojo Bracciano',
-    size: "large",
-	message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
-	buttons: {
-		ok: {
-			label: labelButton,
-			className: classButton
-		}
-	}
-	});
-	});
+        var bioDesc="<p></p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>Lorem ipsum</p>';
+        var linkSito=' <a href="">Sito </a><br>';	
+        var linkSocial=' <a href="">Pagina ufficiale</a><br>';	
+        var linkLinkedIn=' <a href="">Profilo LinkedIn</a><br>';
+        var linkGooglePlus=' <a href="">Google+</a><br>';
+            
+        var dialog = bootbox.dialog({
+            onEscape: true,
+            title: 'CoderDojo Bracciano',
+             size: "large",onEscape: true, backdrop: true,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+            });
+    });
 });

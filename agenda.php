@@ -54,7 +54,7 @@
           <h2><i class="fa fa-calendar"></i> Agenda</h2>
           <p>Il programma verrà continuamente aggiornato, quindi #stayTUXed!</p>
 
-          <h3><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
+          <h3 style="text-align:center; margin-top:25px;"><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
 
           <div class="table-responsive table-bordered table-hover w3-striped w3-bordered w3-table">
                       <table class="table w3-striped">
