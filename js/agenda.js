@@ -515,6 +515,7 @@ $(document).ready(function(){
         });
     });
 
+
 	//TEMPLATE
 	$('.className').click(function(){
         var bioDesc="<p></p>";
