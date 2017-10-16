@@ -139,16 +139,22 @@ $(document).ready(function(){
 
     //SIMON LUCA DETTORI
     $('.descSimonLucaDettori').click(function(){
-        var bioDesc="<p>Lorem Ipsum</p>";
+        var bioDesc="<p>Sono un pubblico dipendente di 44 anni che di notte e durante i giorni di ferie coltiva la propria passione per Linux e la tecnologia. l Sinclair ZX Spectrum+ è stato lo strumento con cui tutto è cominciato. \n" +
+            "Da allora sono trascorsi molti anni e milioni di bytes ma la passione ormai decennale per i sistemi operativi Linux e il mondo dell’open source è ormai geneticamente radicata.\n" +
+            "\n" +
+            "Accanito lettore di 2600, non faccio nulla per nascondere il mio spirito critico sui pericoli causati da un utilizzo non trasparente delle tecnologie informatiche. Almeno per ragioni di età, non posso essere considerato un nerd ma uno smanettone incallito in grado, a volte, di stupire nei risultati.\n" +
+            "\n" +
+            "Per passione e per rovinarmi il sonno mi cimento, purtroppo non sempre con la dovuta continuità, in un blog bilingue dedicato a Linux, open source e freeware: galigio.org.\n</p>";
         var img="<img class='img-circle' src='/img/tux.png'>";
         var descAbstract='<p> Partendo da recenti articoli di attualità porrò in evidenza le problematiche sull\'argomento emerse nel corso degli ultimi mesi sulla stampa nordamericana, suggerendo alcuni semplici accorgimenti "comportamentali" per migliorare il proprio livello di privacy. Nello specifico, oltre ad illustrare i rischi di privacy legati all\'hardware, tratterò l\'argomento del MAC spoofing evidenziando la necessità di prevedere scansioni periodiche antirootkit anche su macchine Linux.\n' +
             'La parte centrale dell\'intervento sarà dedicato agli utenti entry level a cui illustrerò le funzionalità VPN gratuite di default a disposizione nelle ultime versioni del browser Opera suggerendo alcuni semplici add-on (tipo: TrackMeNot, Adblock, MasterPassword+, Priv8, PwdHash, User Agent RG, Webmail AD Bloc) per aumentare il livello di riservatezza durante la navigazione. </p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/simonluca-dettori-30b19024/?ppe=1">Profilo LinkedIn</a><br>';
+        var linkSito=' <a href="https://galigio.org/">Sito </a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Simon Luca Dettori',
             size: "large",
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + linkedInIcon + linkLinkedIn,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -297,7 +303,8 @@ $(document).ready(function(){
     $('.descCameliaBoban').click(function(){
         var bioDesc="<p>Analista programmatrice interessata di gender gap e semantic web. Wikip(m)ediana, convinta che l'open source apre gli orizzonti non solo il codice. Fondatrice di WikiDonne.         </p>";
         var img="<img class='img-circle' src='/img/speaker/camelia_boban.jpg'>";
-        var descAbstract='<p>Biografie di Persone Viventi. Enciclopedicità e verificabilità rispettando privacy e dati personali. Yes, we can!\n</p>';
+        var descAbstract='<p>BPV - Biografie di Persone Viventi che garantiscono il punto di vista neutrale, mantengono l\'accuratezza dei fatti e hanno un\'adeguata provenienza. I principi dell\'enciclopedicità e verificabilità di Wikipedia, ma rispettando privacy e dati personali, per non subire danni da informazioni inadeguate. Yes, we can!"\n' +
+            '\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/camelia-boban-31319122/">Profilo LinkedIn</a><br>';
 
         var dialog = bootbox.dialog({
@@ -477,6 +484,26 @@ $(document).ready(function(){
             title: 'Marco Pantò',
             size: "large",
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //URBAN TERROR
+    $('.descUrbanTerror').click(function(){
+        var img="<img class='img-circle' src='/img/agenda/urban_terror.jpg'>";
+        var descAbstract='<p>Urban Terror è uno sparatutto in prima persona basato sul motore grafico di Quale III (rilasciato dalla id Software con licenza GPL). Il torneo consisterà in tre match eliminatori più match finale in modalità Deathmatch.' +
+            '<br></p>   <p><b>Requisiti:</b><br>' +
+            'Non è necessario disporre di un proprio portatile, in quanto il torneo sarà svolto all\'interno del laboratorio del Dipartimento.</p>';
+
+        var dialog = bootbox.dialog({
+            title: 'Torneo di Urban Terror',
+            size: "large",
+            message: img + labelAbstract + descAbstract,
             buttons: {
                 ok: {
                     label: labelButton,

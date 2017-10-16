@@ -54,7 +54,7 @@
           <h2><i class="fa fa-calendar"></i> Agenda</h2>
           <p>Il programma verrà continuamente aggiornato, quindi #stayTUXed!</p>
 
-          <h3><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
+          <h3 style="text-align:center; margin-top:25px;"><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
 
           <div class="table-responsive table-bordered table-hover w3-striped w3-bordered w3-table">
                       <table class="table w3-striped">
@@ -112,8 +112,8 @@
                       <td class="descCameliaBoban">
                           Wikipedia e BPV
                       </td>
-                      <td class="descLucaRelandini">
-                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
+                      <td class="descRobertoReale">
+                          Il progetto Kalipto
                       </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
@@ -173,8 +173,8 @@
                       <td class="descSimoneOnofri">
                           Penetration Testing di Linux
                       </td>
-                      <td class="descCoderDojo">
-                          CoderDojo Bracciano
+                      <td class="descUrbanTerror">
+                            Torneo di Urban Terror
                       </td>
                   </tr>
                   <tr>
@@ -188,8 +188,8 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td class="descRobertoReale">
-                          Il progetto Kalipto
+                      <td class="descLucaRelandini">
+                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
                       </td>
                       <td class="descLucaVidoni">
                           Honeypots - hacklab
@@ -197,8 +197,8 @@
                       <td class="descSimoneOnofri">
                           Penetration Testing di Linux
                       </td>
-                      <td class="descCoderDojo">
-                          CoderDojo Bracciano
+                      <td class="descUrbanTerror">
+                          Torneo di Urban Terror
                       </td>
                   </tr>
                   <tr>
@@ -212,13 +212,15 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                     <td></td>
+                     <<td class="descLucaRelandini">
+                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
+                      </td>
                       <td></td>
                       <td class="descDanieleScasciafratte">
                           Firefox 57 cosa ci aspetta + Come sta messo Internet: Internet Health Report
                       </td>
-                      <td class="descCoderDojo">
-                          CoderDojo Bracciano
+                      <td class="descUrbanTerror">
+                          Torneo di Urban Terror
                       </td>
                   </tr>
                   </tbody>
