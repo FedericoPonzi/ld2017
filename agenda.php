@@ -85,8 +85,8 @@
                       <td class="descAlbertoMassidda">
                           Docker e Kubernetes
                       </td>
-                      <td class="descBrunoLaurencich">
-                          Capturing the human body motion with inertial sensors, the Open Source way
+                      <td class="descLucaRelandini">
+                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
                       </td>
                       <td class="descGianlucaGranero">
                           Basta usare Linux per essere "protetti"?
@@ -188,8 +188,8 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td class="descLucaRelandini">
-                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
+                      <td class="descBrunoLaurencich">
+                          Capturing the human body motion with inertial sensors, the Open Source way
                       </td>
                       <td class="descLucaVidoni">
                           Honeypots - hacklab
@@ -212,8 +212,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                     <<td class="descLucaRelandini">
-                          Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
+                     <<td>
                       </td>
                       <td class="descAlessandroSelli">
                           Darknet: non tutto il buio deve far paura
