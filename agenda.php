@@ -212,8 +212,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                     <<td>
-                      </td>
+                      <td></td>
                       <td class="descAlessandroSelli">
                           Darknet: non tutto il buio deve far paura
                       </td>
