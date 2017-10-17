@@ -56,8 +56,8 @@
 
           <h3 style="text-align:center; margin-top:25px;"><i class="fa fa-bookmark"></i> Ore 9.30 - aula N10: saluto di benvenuto</h3>
 
-          <div class="table-responsive table-bordered table-hover w3-striped w3-bordered w3-table">
-                      <table class="table w3-striped">
+          <div class="table-bordered table-hover w3-striped w3-bordered">
+              <table class="table table-responsive w3-striped">
                   <thead>
                   <tr>
                       <th>#</th>
