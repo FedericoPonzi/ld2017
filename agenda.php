@@ -215,7 +215,9 @@
                      <<td class="descLucaRelandini">
                           Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
                       </td>
-                      <td></td>
+                      <td class="descAlessandroSelli">
+                          Darknet: non tutto il buio deve far paura
+                      </td>
                       <td class="descDanieleScasciafratte">
                           Firefox 57 cosa ci aspetta + Come sta messo Internet: Internet Health Report
                       </td>

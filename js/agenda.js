@@ -515,6 +515,34 @@ $(document).ready(function(){
         });
     });
 
+    //ALESSANDRO SELLI
+    $('.descAlessandroSelli').click(function(){
+        var bioDesc="<p>Alessandro Selli è sistemista UNIX e Linux dal 2001, dopo un praticantato...\n" +
+            "domestico, maturato autonomamente sul PC di papà nel tempo libero a partire\n" +
+            "dal 1997.  Dopo una maturazione professionale condotta in cinque impieghi\n" +
+            "precari, dal 2008 è impiegato dalla Synergia S.R.L come consulente e\n" +
+            "formatore Linux.  Titolare di certificazioni LPIC-2, LFCS e di tre\n" +
+            "certificazioni di Software Tester ISTQB, è membro della FSF ed è stato, nel\n" +
+            "2004, membro del Consiglio Direttivo del LUGRoma.\n</p>";
+        var img="<img class='img-circle' src='/img/speaker/alessandro_selli.jpg'>";
+        var descAbstract='<p><ul><li>Le darknet: natura e scopo, miti e realtà</li><li>Principali schemi di funzionamento delle darknet</li><li>Le principali implementazioni</li><li>Due casi specifici in dettaglio: Tor e I2P</li><li>Mi conviene/serve usare una darknet? Vantaggi e rischi della navigazione al "buio"</li></ul></p>';
+        var linkSito=' <a href="http://www.synergia.it/">Sito </a><br>';
+        var linkLinkedIn=' <a href="https://www.linkedin.com/in/alessandro-selli-5bb835a8/">Profilo LinkedIn</a><br>';
+
+        var dialog = bootbox.dialog({
+            onEscape: true,
+            title: 'Alessandro Selli',
+            size: "large",onEscape: true, backdrop: true,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito+ linkedInIcon + linkLinkedIn,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
 
 	//TEMPLATE
 	$('.className').click(function(){
