@@ -212,7 +212,7 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                     <<td class="descLucaRelandini">
+                     <td class="descLucaRelandini">
                           Architetture distribuite, microservices e sicurezza delle comunicazioni: policy based networking per i container
                       </td>
                       <td class="descAlessandroSelli">
