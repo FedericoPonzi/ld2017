@@ -58,7 +58,7 @@
                           <table>
                           <tr>
                             <td>
-                            <input type="hidden" name="on0" value="Nome del menu a discesa">Nome del menu a discesa</td></tr><tr><td><select name="os0">
+                            <input type="hidden" name="on0" value="Nome del menu a discesa">Scegli la tua maglietta. Potrai ritirarla il giorno del Linux Day!</td></tr><tr><td><select name="os0">
                           <option value="May The Source Be With You - Taglia M">May The Source Be With You - Taglia M €10,00 EUR</option>
                           <option value="May The Source Be With You - Taglia L">May The Source Be With You - Taglia L €10,00 EUR</option>
                           <option value="May The Source Be With You - Taglia XL">May The Source Be With You - Taglia XL €10,00 EUR</option>

@@ -113,7 +113,7 @@
                           Wikipedia e BPV
                       </td>
                       <td class="descRobertoReale">
-                          Il progetto Kalipto
+                          
                       </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
