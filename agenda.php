@@ -112,8 +112,8 @@
                       <td class="descCameliaBoban">
                           Wikipedia e BPV
                       </td>
-                      <td class="descRobertoReale">
-                          
+                      <td class="descEugenioPetulla">
+                          Introduction to Rust: a modern programming language
                       </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano

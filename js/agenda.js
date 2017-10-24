@@ -20,7 +20,7 @@ $(document).ready(function(){
 	var linkSito=' <a href="http://www.lpi-italia.org/">Sito LPI</a><br>';
 	var linkSocial=' <a href="https://www.facebook.com/LPIConnect/">Pagina ufficiale</a><br>';
 	var eventbriteLink='  <a href="#">Biglietti</a><br>';
-		
+
 	var dialog = bootbox.dialog({
 	title: 'Linux Professional Institute',
      size: "large",onEscape: true, backdrop: true,
@@ -47,10 +47,10 @@ $(document).ready(function(){
         '<li>portare una merenda per la pausa che si terrà durante l\'evento;</li>\n' +
         '<li>avere un genitore o adulto responsabile presente durante tutta la durata dell\'evento <b>(obbligatorio!)</b>.</li>\n' +
         '</ul> </p>';
-	var linkSito=' <a href="https://zen.coderdojo.com/dojos/it/bracciano-metropolitan-city-of-rome/bracciano">Sito CoderDojo</a><br>';	
-	var linkSocial=' <a href="https://www.facebook.com/coderdojo.bracciano/">Pagina ufficiale</a><br>';	
+	var linkSito=' <a href="https://zen.coderdojo.com/dojos/it/bracciano-metropolitan-city-of-rome/bracciano">Sito CoderDojo</a><br>';
+	var linkSocial=' <a href="https://www.facebook.com/coderdojo.bracciano/">Pagina ufficiale</a><br>';
 	var eventbriteLink='  <a href="https://www.eventbrite.it/e/biglietti-coderdojo-linuxdayromatre-37978513757?aff=es2">Biglietti</a><br>';
-		
+
 	var dialog = bootbox.dialog({
 	title: 'CoderDojo Bracciano',
      size: "large",onEscape: true, backdrop: true,
@@ -543,17 +543,39 @@ $(document).ready(function(){
         });
     });
 
+		$('.descEugenioPetulla').click(function(){
+	        var bioDesc="<p>Eugenio Petullà è un Mozilla Tech Speaker e un Full Stack Developer interessato sopratutto alla divulgazione e alla diffusione di tecnologie Open Source. Durante gli ultimi anni è stato invitato come relatore in alcune delle più grandi conferenze europee riguardo lo sviluppo, il web e il mondo del software libero.</p>";
+	        var img="<img class='img-circle' src='/img/tux.png'>";
+	        var descAbstract='<p>Rust è un linguaggio sicuro, moderno e multithread nato e subito adottato in casa Mozilla. Grazie a questo talk scoprirete le feature che lo rendono tanto speciale e amato dai programmatori di tutto il mondo.</p>';
+	        var linkSito=' <a href="#">Sito </a><br>';
+	        var linkSocial=' <a href="#">Pagina ufficiale</a><br>';
+	        var linkLinkedIn=' <a href="#">Profilo LinkedIn</a><br>';
+	        var linkGooglePlus=' <a href="#">Google+</a><br>';
+
+	        var dialog = bootbox.dialog({
+	            onEscape: true,
+	            title: 'Introduction to Rust: a modern programming language',
+	             size: "large",onEscape: true, backdrop: true,
+	            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+	            buttons: {
+	                ok: {
+	                    label: labelButton,
+	                    className: classButton
+	                }
+	            }
+	            });
+	    });
 
 	//TEMPLATE
 	$('.className').click(function(){
         var bioDesc="<p></p>";
         var img="<img class='img-circle' src='/img/tux.png'>";
         var descAbstract='<p>Lorem ipsum</p>';
-        var linkSito=' <a href="">Sito </a><br>';	
-        var linkSocial=' <a href="">Pagina ufficiale</a><br>';	
+        var linkSito=' <a href="">Sito </a><br>';
+        var linkSocial=' <a href="">Pagina ufficiale</a><br>';
         var linkLinkedIn=' <a href="">Profilo LinkedIn</a><br>';
         var linkGooglePlus=' <a href="">Google+</a><br>';
-            
+
         var dialog = bootbox.dialog({
             onEscape: true,
             title: 'CoderDojo Bracciano',
