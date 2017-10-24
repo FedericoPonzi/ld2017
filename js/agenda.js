@@ -10,6 +10,7 @@ $(document).ready(function(){
 	var socialIcon='<i class="fa fa-facebook-square"></i>';
 	var linkedInIcon='<i class="fa fa-linkedin-square"></i>';
 	var googlePlusIcon='<i class="fa fa-google-plus-official"></i>';
+	var youTubeIcon='<i class="fa fa-youtube" aria-hidden="true"></i>';
 
 	//LINUX PROFESSIONAL INSTITUTE
 	$('.descLinuxInstitute').click(function(){
@@ -349,26 +350,6 @@ $(document).ready(function(){
         });
     });
 
-    //MARIO CARTIA
-    $('.descMarioCartia').click(function(){
-        var bioDesc="<p>I was born in Siracusa 39 years ago. I studied Computer Science at University of Catania and achieved a diploma of specialization in \"Computer security and digital forensic\" at the University of Teramo. Over 15 years of experience as a trainer and consultant in Italian and multinational IT companies. In the last five years I have dedicated myself to training and consultancy in the field of Big Data and Artificial Intelligence.</p>";
-        var img="<img class='img-circle' src='/img/speaker/mario_cartia.jpg'>";
-        var descAbstract='<p>Durante il talk saranno introdotti in maniera semplice questi argomenti, naturalmente con un minimo di approfondimento/esempi di casi d\'uso reali, quindi parlando delle librerie/framework più utilizzati e di applicazioni odierne.\n</p>';
-        var linkLinkedIn=' <a href="https://www.linkedin.com/in/mariocartia/">Profilo LinkedIn</a><br>';
-
-        var dialog = bootbox.dialog({
-            title: 'Mario Cartia',
-             size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
-            buttons: {
-                ok: {
-                    label: labelButton,
-                    className: classButton
-                }
-            }
-        });
-    });
-
     //DANIELE SCASCIAFRATTE
     $('.descDanieleScasciafratte').click(function(){
         var bioDesc="<p>Daniele Scasciafratte, the Open Source Multiversal guy, he should work in his web agency, Codeat in Rome, and in the rest of the day collaborate in many open source projects.\n" +
@@ -420,26 +401,6 @@ $(document).ready(function(){
             title: 'Sara Di Bartolomeo',
              size: "large",onEscape: true, backdrop: true,
             message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
-            buttons: {
-                ok: {
-                    label: labelButton,
-                    className: classButton
-                }
-            }
-        });
-    });
-
-    //ROBERTO REALE
-    $('.descRobertoReale').click(function(){
-        var bioDesc="<p>Lorem Ipsum</p>";
-        var img="<img class='img-circle' src='/img/tux.png'>";
-        var descAbstract='<p>Kalipto: si tratta di un framework per lo scambio di messaggi tramite steganografia ed api pubbliche (nella fattispecie quelle di Twitter, ma il meccanismo è facilmente generalizzabile), inteso come proof of concept delle potenzialità che canali di comunicazione "non standard" offrono in tal senso, e nello stesso tempo dei rischi che essi pongono.\n</p>';
-        var linkSito=' <a href="https://github.com/robertoreale/kalipto ">Sito </a><br>';
-
-        var dialog = bootbox.dialog({
-            title: 'Roberto Reale',
-             size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -543,6 +504,70 @@ $(document).ready(function(){
         });
     });
 
+
+    //MARCO SACCHETTI
+    $('.descMarcoSacchetti').click(function(){
+        var bioDesc="<p>Marco Sacchetti si e' laureato in ingegneria informatica presso l'universita' di\n" +
+            "Roma Tre con una tesi sulla sicurezza del protocollo USB.\n" +
+            "Durante il lavoro di tesi insieme al relatore Prof. Maurizio Pizzonia e al\n" +
+            "correlatore Federico Griscioli sono nate alcune idee interessanti, sviluppate\n" +
+            "dopo la laurea nell'ambito del progetto europeo PREEMPTIVE sulla sicurezza delle\n" +
+            "infrastrutture critiche, al quale l'universita' di Roma Tre ha partecipato come\n" +
+            "partner.\n</p>";
+        var img="<img class='img-circle' src='/img/tux.png'>";
+        var descAbstract='<p>L\'attacco BadUSB sfrutta la modifica non autorizzata del firmware di un\n' +
+            'dispositivo USB per simulare funzionalita\' proprie di altri dispositivi come\n' +
+            'mouse e tastiere, al fine di inviare comandi malevoli all\'host a cui e\'\n' +
+            'connesso. Questa e\' una minaccia di primaria importanza per ogni tipo di\n' +
+            'organizzazione che utilizza periferiche USB e le contromisure disponibili\n' +
+            'richiedono l\'uso di dispositivi appositi o si affidano alla discrezione dell\'utente.\n' +
+            'Dallo studio di questa problematica e\' nato USBCheckIn, un dispositivo di\n' +
+            'protezione della connessione USB sviluppato su piattaforma open hardware\n' +
+            '(BeagleBone Black) e librerie open source (USBProxy) che si inserisce nel mezzo\n' +
+            'della connessione. USBCheckin garantisce che il dispositivo malevolo non possa\n' +
+            'sfruttare questa tecnica per portare avanti un attacco, tramite un sistema di\n' +
+            'verifica delle sue effettive capacita\' (test di turing). In questo modo si\n' +
+            'riesce a proteggere un sistema host indipendentemente dalla sua configurazione\n' +
+            'software o dal sistema operativo che esso esegue.\n</p>';
+        var linkSito=' <a href="http://www.dia.uniroma3.it/~pizzonia/usbcheckin">Sito </a><br>';
+
+        var dialog = bootbox.dialog({
+            onEscape: true,
+            title: 'Marco Sacchetti',
+            size: "large",onEscape: true, backdrop: true,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
+
+    //PIERO E POLLO
+    $('.descPieroSavastano').click(function(){
+        var bioDesc="<p>Piero si occupa di intelligenza artificiale dal 2004. Partito da esperienze di ricerca in reti neurali e robotica sia ne La Sapienza di Roma che nel CNR, svolge attività di data scientist nei campi della visualizzazione e del machine learning. Partecipa attivamente al movimento open data e open source.\n" +
+            "Attualmente lavora come assistente del Pollo Watzlawick.\n</p>";
+        var img="<img class='img-circle' src='/img/speaker/pollo_e_piero.png'>";
+        var descAbstract='<p>Cosa è il machine learning? Perchè è tornato di moda? Qual è il ruolo dei dati personali nella costruzione di intelligenze artificiali?</p>';
+        var linkSocial=' <a href="https://www.facebook.com/MrPolloWatzlawick/">Pagina ufficiale</a><br>';
+        var linkLinkedIn=' <a href="https://it.linkedin.com/in/piero-savastano-523b3016">Profilo LinkedIn</a><br>';
+        var linkYouTube=' <a href="https://www.youtube.com/channel/UCD-HLhRV_4Z3sYGkgqAnIJw">Canale YouTube</a><br>\';
+
+        var dialog = bootbox.dialog({
+            onEscape: true,
+            title: 'Piero Savastano & Pollo Watzlawick',
+            size: "large",onEscape: true, backdrop: true,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + youTubeIcon + linkYouTube,
+            buttons: {
+                ok: {
+                    label: labelButton,
+                    className: classButton
+                }
+            }
+        });
+    });
 
 	//TEMPLATE
 	$('.className').click(function(){

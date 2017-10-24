@@ -112,8 +112,8 @@
                       <td class="descCameliaBoban">
                           Wikipedia e BPV
                       </td>
-                      <td class="descRobertoReale">
-                          
+                      <td class="descMarcoSacchetti">
+                          Il progetto USBCheckIn
                       </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
@@ -133,8 +133,8 @@
                       <td class="descDiegoLucaCandido">
                           Dataset: informazioni, privacy e creazione
                       </td>
-                      <td class="descMarioCartia">
-                          Artificial Intelligence, Machine Learning e Deep Learning: facciamo chiarezza
+                      <td class="descPieroSavastano">
+                          Machine Learning e dati personali
                       </td>
                       <td class="descSimonLucaDettori">
                           Privacy & Linux: come migliorare il livello di privacy attraverso il MAC spoofing e Opera
