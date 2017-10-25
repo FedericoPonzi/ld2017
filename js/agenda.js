@@ -575,7 +575,7 @@ $(document).ready(function(){
         var descAbstract='<p>Cosa è il machine learning? Perchè è tornato di moda? Qual è il ruolo dei dati personali nella costruzione di intelligenze artificiali?</p>';
         var linkSocial=' <a href="https://www.facebook.com/MrPolloWatzlawick/">Pagina ufficiale</a><br>';
         var linkLinkedIn=' <a href="https://it.linkedin.com/in/piero-savastano-523b3016">Profilo LinkedIn</a><br>';
-        var linkYouTube=' <a href="https://www.youtube.com/channel/UCD-HLhRV_4Z3sYGkgqAnIJw">Canale YouTube</a><br>\';
+        var linkYouTube=' <a href="https://www.youtube.com/channel/UCD-HLhRV_4Z3sYGkgqAnIJw">Canale YouTube</a><br>';
 
         var dialog = bootbox.dialog({
             onEscape: true,
