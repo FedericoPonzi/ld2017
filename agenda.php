@@ -112,8 +112,8 @@
                       <td class="descCameliaBoban">
                           Wikipedia e BPV
                       </td>
-                      <td class="descEugenioPetulla">
-                          Introduction to Rust: a modern programming language
+                      <td class="descMarcoSacchetti">
+                          Il progetto USBCheckIn
                       </td>
                       <td class="descCoderDojo">
                           CoderDojo Bracciano
@@ -212,8 +212,9 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td class="descMarcoSacchetti">
-                          Il progetto USBCheckIn
+
+                      <td class="descEugenioPetulla">
+                          Introduction to Rust: a modern programming language
                       </td>
                       <td class="descAlessandroSelli">
                           Darknet: non tutto il buio deve far paura
