@@ -63,7 +63,7 @@
                       <th>#</th>
                       <th>Aula N3</th>
                       <th>Aula N6</th>
-                      <th>Aula N7</th>
+                      <th>Aula N4</th>
                       <th>Aula N8</th>
                       <th>Aula N10</th>
                       <th>Aula N11</th>
