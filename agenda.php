@@ -63,7 +63,7 @@
                       <th>#</th>
                       <th>Aula N3</th>
                       <th>Aula N6</th>
-                      <th>Aula N7</th>
+                      <th>Aula N4</th>
                       <th>Aula N8</th>
                       <th>Aula N10</th>
                       <th>Aula N11</th>
@@ -212,7 +212,10 @@
                       <td class="descCTF">
                           Capture The Flag
                       </td>
-                      <td></td>
+
+                      <td class="descEugenioPetulla">
+                          Introduction to Rust: a modern programming language
+                      </td>
                       <td class="descAlessandroSelli">
                           Darknet: non tutto il buio deve far paura
                       </td>
