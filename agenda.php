@@ -171,7 +171,7 @@
                           Brute Force attacks - hacklab
                       </td>
                       <td class="descSimoneOnofri">
-                          Penetration Testing di Linux
+                          <s>Penetration Testing di Linux</s>
                       </td>
                       <td class="descUrbanTerror">
                             Torneo di Urban Terror
@@ -195,7 +195,7 @@
                           Honeypots - hacklab
                       </td>
                       <td class="descSimoneOnofri">
-                          Penetration Testing di Linux
+                          <s>Penetration Testing di Linux</s>
                       </td>
                       <td class="descUrbanTerror">
                           Torneo di Urban Terror

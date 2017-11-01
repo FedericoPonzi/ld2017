@@ -11,6 +11,7 @@ $(document).ready(function(){
 	var linkedInIcon='<i class="fa fa-linkedin-square"></i>';
 	var googlePlusIcon='<i class="fa fa-google-plus-official"></i>';
 	var youTubeIcon='<i class="fa fa-youtube" aria-hidden="true"></i>';
+	var slidesIcon='<i class="fa fa-download"></i>';
 
 	//LINUX PROFESSIONAL INSTITUTE
 	$('.descLinuxInstitute').click(function(){
@@ -79,11 +80,12 @@ $(document).ready(function(){
             'Il progetto Contiv è una soluzione open source avanzata per il networking in Docker, K8s, Mesos e altri resource manager.  La sessione è seguita da un laboratorio in cui i partecipanti eseguiranno un tutorial di Contiv sul proprio pc.\n</p>';
         var linkSito=' <a href="https://gblogs.cisco.com/it/author/lrelandi/">Sito </a><br>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/lucarelandini/?ppe=1">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/file/d/0BxeNBXqm57NTejl6dUpyZExlZms/view?usp=sharing">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Luca Relandini',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + linkedInIcon + linkLinkedIn + labelBlog + linkBlog,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + linkedInIcon + linkLinkedIn + labelBlog + linkBlog + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -94,7 +96,7 @@ $(document).ready(function(){
     });
 
 
-        //BRUNO LAURENCICH
+    //BRUNO LAURENCICH
     $('.descBrunoLaurencich').click(function(){
         var bioDesc="<p>He’s an artist who found on programming and hardware development a way of expanding his expressive and technical capacities. He started out as a traditional animator and then made his way into computing through 3D animation and interactive art. He worked on several audiovisual agencies, and now as a technology teacher for young people at Codemotion Kids and freelancer. Two years ago, he decided he needed a motion capture system for a performance, and seeing there was none available at a decent cost, decided to build one himself.\n</p>";
         var img="<img class='img-circle' src='/img/speaker/bruno_laurencich.jpg'>";
@@ -124,11 +126,12 @@ $(document).ready(function(){
             'Farò un approfondimento sulle tematiche di privacy e tos dei siti web e delle app mobile.\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/diegolucacandido">Profilo LinkedIn</a><br>';
         var linkGooglePlus=' <a href="https://plus.google.com/116655076816646389102">Google+</a><br>';
+        var linkSlides=' <a href="#">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Diego Luca Candido',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -151,12 +154,13 @@ $(document).ready(function(){
             'La parte centrale dell\'intervento sarà dedicato agli utenti entry level a cui illustrerò le funzionalità VPN gratuite di default a disposizione nelle ultime versioni del browser Opera suggerendo alcuni semplici add-on (tipo: TrackMeNot, Adblock, MasterPassword+, Priv8, PwdHash, User Agent RG, Webmail AD Bloc) per aumentare il livello di riservatezza durante la navigazione. </p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/simonluca-dettori-30b19024/?ppe=1">Profilo LinkedIn</a><br>';
         var linkSito=' <a href="https://galigio.org/">Sito </a><br>';
+        var linkSlides=' <a href="#">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Simon Luca Dettori',
 
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
 
             buttons: {
                 ok: {
@@ -242,11 +246,12 @@ $(document).ready(function(){
         var linkSocial=' <a href="https://www.facebook.com/Serena.Sensini">Pagina ufficiale</a><br>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/serena-sensini/">Profilo LinkedIn</a><br>';
         var linkGooglePlus=' <a href="https://plus.google.com/u/0/103050391889340133739">Google+</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/open?id=1PknEgKEgCtew5YZGM8Vm1dnlON7qsnHz7tlfV2QbGXI">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Serena Sensini',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -267,11 +272,12 @@ $(document).ready(function(){
             'e un\'introduzione pratica al mondo Open source, per rendere più consapevoli di quanto il mondo Linux sia nei posti più\n' +
             'inaspettati.</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/ciro-santillo-2025a6ba/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="#">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Ciro Santillo',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -288,11 +294,12 @@ $(document).ready(function(){
         var descAbstract='<p>In questo intervento esploreremo l’adozione della tecnologia di container dai punti di vista sviluppo software e sistemistico, in armonia con i principi DevOps.\n' +
             'Partiremo con un’introduzione base su Docker e col setup locale; proseguiremo con la migrazione di un’applicazione da bare metal a Docker, introdurremo il concetto di stack con Docker Compose, ci sposteremo sui sistemi di orchestrazione come Swarm e Kubernetes, per finire con le piattaforme di gestione come AWS Elastic Beanstalk e Rancher.\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/albertomassidda/detail/photo/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/open?id=0Bx4DQpW_xfWeamtPRWhJZlE1Z3c">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Alberto Massidda',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -309,11 +316,12 @@ $(document).ready(function(){
         var descAbstract='<p>BPV - Biografie di Persone Viventi che garantiscono il punto di vista neutrale, mantengono l\'accuratezza dei fatti e hanno un\'adeguata provenienza. I principi dell\'enciclopedicità e verificabilità di Wikipedia, ma rispettando privacy e dati personali, per non subire danni da informazioni inadeguate. Yes, we can!"\n' +
             '\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/camelia-boban-31319122/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="https://docs.google.com/presentation/d/1mrbHZxn5gnDKRhsO9ZyO30CADihzL3nrU15KVp2yJFw/edit?usp=sharing">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Camelia Boban',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -336,11 +344,12 @@ $(document).ready(function(){
             'Capirle un po\' meglio per sapere da quali è necessario proteggerci e su quali possiamo fare un compromesso con maggiore serenità.\n</p>';
         var linkSito=' <a href="http://www.memopal.com">Sito </a><br>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/gianlucagranero/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="#">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Gianluca Granero',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -365,11 +374,12 @@ $(document).ready(function(){
             'IHR è un progetto di Mozilla per poter discutere, misurare ed analizzare i problemi e le minacce alla rete che rientra nel manifesto Mozilla riguardo l\'uso e l\'accesso ad internet.\n' +
             '30 minuti\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/danielescasciafratte/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="http://mte90.github.io/Presentazione-FFNightly/#/">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Daniele Scasciafratte',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -396,11 +406,12 @@ $(document).ready(function(){
             '\n' +
             'Durante il workshop, esploreremo le profondità del processo di rendering, capiremo cos\'è uno shader e impareremo a farne per migliorare le nostre scene in 3D.\n</p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/sara-di-bartolomeo-84b45661/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/open?id=1r3ItjshyeN_bkMeKv-MqgdSKW0kip8J2_bB0kUrjIzg">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Sara Di Bartolomeo',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -419,11 +430,12 @@ $(document).ready(function(){
             '<br>Talk: Luca Vidoni\n' +
             '<br>Livello intermedio avanzato</p>';
         var linkSito=' <a href="http://www.linuxshell.it/">Sito </a><br>';
+        var linkSlides=' <a href="http://www.linuxshell.it/modules.php?name=News&file=article&sid=209">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Luca Vidoni',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -442,11 +454,12 @@ $(document).ready(function(){
             '<br><br>Intro e Talk: Marco Pantò\n' +
             '<br>Livello intermedio avanzato\n</p>';
         var linkSito=' <a href="http://www.linuxshell.it/">Sito </a><br>';
+        var linkSlides=' <a href="http://www.linuxshell.it/modules.php?name=News&file=article&sid=209">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Marco Pantò',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -489,12 +502,13 @@ $(document).ready(function(){
         var descAbstract='<p><ul><li>Le darknet: natura e scopo, miti e realtà</li><li>Principali schemi di funzionamento delle darknet</li><li>Le principali implementazioni</li><li>Due casi specifici in dettaglio: Tor e I2P</li><li>Mi conviene/serve usare una darknet? Vantaggi e rischi della navigazione al "buio"</li></ul></p>';
         var linkSito=' <a href="http://www.synergia.it/">Sito </a><br>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/alessandro-selli-5bb835a8/">Profilo LinkedIn</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/open?id=0Bx4DQpW_xfWeNjUzUjRkcDQxZVFFNHBuazJfRllBUHhYR0w0">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             onEscape: true,
             title: 'Alessandro Selli',
             size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito+ linkedInIcon + linkLinkedIn,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito+ linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -530,12 +544,13 @@ $(document).ready(function(){
             'riesce a proteggere un sistema host indipendentemente dalla sua configurazione\n' +
             'software o dal sistema operativo che esso esegue.\n</p>';
         var linkSito=' <a href="http://www.dia.uniroma3.it/~pizzonia/usbcheckin">Sito </a><br>';
+        var linkSlides=' <a href="https://drive.google.com/open?id=0Bx4DQpW_xfWeQzFVNlhpdVdrX1BROXV1SWk2SzhQZlpSUW00">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             onEscape: true,
             title: 'Marco Sacchetti',
             size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
@@ -553,13 +568,14 @@ $(document).ready(function(){
         var descAbstract='<p>Cosa è il machine learning? Perchè è tornato di moda? Qual è il ruolo dei dati personali nella costruzione di intelligenze artificiali?</p>';
         var linkSocial=' <a href="https://www.facebook.com/MrPolloWatzlawick/">Pagina ufficiale</a><br>';
         var linkLinkedIn=' <a href="https://it.linkedin.com/in/piero-savastano-523b3016">Profilo LinkedIn</a><br>';
-        var linkYouTube=' <a href="https://www.youtube.com/channel/UCD-HLhRV_4Z3sYGkgqAnIJw">Canale YouTube</a><br>\';
+        var linkYouTube=' <a href="https://www.youtube.com/channel/UCD-HLhRV_4Z3sYGkgqAnIJw">Canale YouTube</a><br>';
+        var linkSlides=' <a href="http://slides.com/pieroit/machine-learning-personal-data#/">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             onEscape: true,
             title: 'Piero Savastano & Pollo Watzlawick',
             size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + youTubeIcon + linkYouTube,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + youTubeIcon + linkYouTube + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
