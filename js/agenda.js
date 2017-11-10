@@ -261,23 +261,19 @@ $(document).ready(function(){
         });
     });
 
-    //CIRO SANTILLO
+    //GIULIO PICIERRO
     $('.descScuoleIntroLinux').click(function(){
-        var bioDesc="<p>Studente appassionato del pinguino che nel 2015 fonda, insieme ai suoi colleghi, il LUG a Roma Tre, per portare avanti il supporto\n" +
-            "e il sostegno al mondo Open. Dal 2015 lavora in Airgloss (Monitoraggio qualità dell'aria e termostatazione intelligente) e, nel\n" +
-            "tempo libero, si occupa inoltre di erogare Corsi Linux all'interno della facoltà di Ingegneria a Roma Tre. \n" +
-            "Adora suonare e fa parte di una band.</p>";
-        var img="<img class='img-circle' src='/img/speaker/ciro_santillo.jpg'>";
+        var bioDesc="<p>Appassionato fin da piccolo al mondo dei computers e della tecnologia in generale, dal 2013 membro del Roma2LUG all'Università di Roma \"Tor Vergata\" dove ha contribuito all'organizzazione di diversi Linux Day romani. Attualmente dottorando di ricerca nell'ambito dei sistemi real-time multicore, impartisce lezioni nei corsi dedicati ai Sistemi Operativi Open Source. Nel tempo libero pratica il pentathlon: nuoto, cinema, videogiochi, telefilm e birra :D.</p>";
+        var img="<img class='img-circle' src='/img/speaker/giulio_picierro.jpg'>";
         var descAbstract='<p>In questo slot di tempo, cercheremo di partire dalle origini di Linux, fino ad arrivare ai giorni nostri; pro, contro\n' +
             'e un\'introduzione pratica al mondo Open source, per rendere più consapevoli di quanto il mondo Linux sia nei posti più\n' +
             'inaspettati.</p>';
-        var linkLinkedIn=' <a href="https://www.linkedin.com/in/ciro-santillo-2025a6ba/">Profilo LinkedIn</a><br>';
         var linkSlides=' <a href="#">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
-            title: 'Ciro Santillo',
+            title: 'Giulio Picierro',
              size: "large",onEscape: true, backdrop: true,
-            message: img + labelBio + bioDesc + labelAbstract + descAbstract + linkedInIcon + linkLinkedIn + slidesIcon + linkSlides,
+            message: img + labelBio + bioDesc + labelAbstract + descAbstract + slidesIcon + linkSlides,
             buttons: {
                 ok: {
                     label: labelButton,
