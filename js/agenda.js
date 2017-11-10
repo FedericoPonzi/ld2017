@@ -26,7 +26,7 @@ $(document).ready(function(){
 	var dialog = bootbox.dialog({
 	title: 'Linux Professional Institute',
      size: "large",onEscape: true, backdrop: true,
-	message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + ticketIcon + eventbriteLink,
+	message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + ticketIcon,
 	buttons: {
 		ok: {
 			label: labelButton,
@@ -154,7 +154,7 @@ $(document).ready(function(){
             'La parte centrale dell\'intervento sarà dedicato agli utenti entry level a cui illustrerò le funzionalità VPN gratuite di default a disposizione nelle ultime versioni del browser Opera suggerendo alcuni semplici add-on (tipo: TrackMeNot, Adblock, MasterPassword+, Priv8, PwdHash, User Agent RG, Webmail AD Bloc) per aumentare il livello di riservatezza durante la navigazione. </p>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/simonluca-dettori-30b19024/?ppe=1">Profilo LinkedIn</a><br>';
         var linkSito=' <a href="https://galigio.org/">Sito </a><br>';
-        var linkSlides=' <a href="#">Scarica le slides</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/file/d/1sYWzeK-aoy8SUfXZMX5ZrXxzDSBNXm6A/view?usp=sharing">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Simon Luca Dettori',
@@ -268,7 +268,7 @@ $(document).ready(function(){
         var descAbstract='<p>In questo slot di tempo, cercheremo di partire dalle origini di Linux, fino ad arrivare ai giorni nostri; pro, contro\n' +
             'e un\'introduzione pratica al mondo Open source, per rendere più consapevoli di quanto il mondo Linux sia nei posti più\n' +
             'inaspettati.</p>';
-        var linkSlides=' <a href="#">Scarica le slides</a><br>';
+        var linkSlides=' <a href="https://drive.google.com/file/d/1AZhq-B69xb9GYowstUkBh95cpt3BfW5f/view?usp=sharing">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Giulio Picierro',
@@ -340,7 +340,7 @@ $(document).ready(function(){
             'Capirle un po\' meglio per sapere da quali è necessario proteggerci e su quali possiamo fare un compromesso con maggiore serenità.\n</p>';
         var linkSito=' <a href="http://www.memopal.com">Sito </a><br>';
         var linkLinkedIn=' <a href="https://www.linkedin.com/in/gianlucagranero/">Profilo LinkedIn</a><br>';
-        var linkSlides=' <a href="#">Scarica le slides</a><br>';
+        var linkSlides=' <a href="https://docs.google.com/presentation/d/1sWpaPYGmhy_27wgAXnLTrblSn2_nd5JmzjhrP-Xoz_s/edit?usp=sharing">Scarica le slides</a><br>';
 
         var dialog = bootbox.dialog({
             title: 'Gianluca Granero',
@@ -522,12 +522,13 @@ $(document).ready(function(){
 	        var linkSocial=' <a href="#">Pagina ufficiale</a><br>';
 	        var linkLinkedIn=' <a href="#">Profilo LinkedIn</a><br>';
 	        var linkGooglePlus=' <a href="#">Google+</a><br>';
+	        var linkSlides=' <a href="https://eugeniopetulla.github.io/Introduction-to-Rust/">Scarica le slides</a><br>';
 
 	        var dialog = bootbox.dialog({
 	            onEscape: true,
 	            title: 'Introduction to Rust: a modern programming language',
 	             size: "large",onEscape: true, backdrop: true,
-	            message: img + labelBio + bioDesc + labelAbstract + descAbstract + wwwIcon + linkSito + socialIcon + linkSocial + linkedInIcon + linkLinkedIn + googlePlusIcon + linkGooglePlus,
+	            message: img + labelBio + bioDesc + labelAbstract + descAbstract + slidesIcon + linkSlides,
 	            buttons: {
 	                ok: {
 	                    label: labelButton,
